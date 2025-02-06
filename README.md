@@ -18,7 +18,7 @@ asdf install
 uv sync
 
 # Run script
-uv run process_sectorregistraties.py
+uv run src/process_sectorregistraties.py
 ```
 
 
