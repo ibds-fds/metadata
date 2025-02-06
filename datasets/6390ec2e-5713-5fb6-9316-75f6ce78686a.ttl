@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:6390ec2e-5713-5fb6-9316-75f6ce78686a
+        a                             dcat:Dataset ;
+        rdfs:label                    "CRT - Gasketelwet"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit van 14 september 2020 houdende wijziging van het Bouwbesluit 2012, het Besluit bouwwerken leefomgeving, het Besluit kwaliteit leefomgeving en het Omgevingsbesluit in verband met de introductie van een stelsel van certificering voor werkzaamheden aan gasverbrandingsinstallaties"@nl ;
+                                        dct:identifier         <https://zoek.officielebekendmakingen.nl/stb-2020-348.html> ;
+                                        foaf:isPrimaryTopicOf  <https://zoek.officielebekendmakingen.nl/stb-2020-348.html>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   "Centraal Register Techniek"@nl ;
+        dct:description               "Vanaf 1 april 2023 moeten installatie- en onderhoudsmonteurs gecertificeerd zijn om te mogen werken met gasverbrandingsinstallaties zoals cv-ketels, gashaarden en geisers. Dit is vastgelegd in de Wet certificering gasverbrandingsinstallaties. Het CO-certificaat bewijst dat men voldoet aan de specifieke vakbekwaamheidseisen en wordt vastgelegd in het Centraal Register Techniek."@nl ;
+        dct:identifier                "6390ec2e-5713-5fb6-9316-75f6ce78686a" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "Stichting Centraal Register Techniek"@nl ;
+        dct:rightsHolder              "Centraal Register Techniek"@nl ;
+        dct:title                     "CRT - Gasketelwet"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:helpdesk@centraalregistertechniek.nl> ;
+                                        vcard:fn     "Centraal Register Techniek"@nl ;
+                                        vcard:tel    <tel:+31262030625> ;
+                                        vcard:web    <https://www.centraalregistertechniek.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.centraalregistertechniek.nl/kwaliteitsregister> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

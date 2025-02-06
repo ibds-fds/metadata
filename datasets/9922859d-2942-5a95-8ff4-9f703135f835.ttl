@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:9922859d-2942-5a95-8ff4-9f703135f835
+        a                             dcat:Dataset ;
+        rdfs:label                    "ANBI-register"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 5b Awr"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002320&hoofdstuk=I&artikel=5b&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002320&hoofdstuk=I&artikel=5b&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1a tot en met 1e, Uitvoeringsregeling Algemene wet inzake rijksbelastingen 1994"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0006736&hoofdstuk=1a&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0006736&hoofdstuk=1a&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <http://standaarden.overheid.nl/owms/terms/Belastingdienst> ;
+        dct:description               "Het ANBI Expertisecentrum van de Belastingdienst bepaalt of een instelling een (culturele) ANBI is, in verband met mogelijk recht op aftrek van giften voor de inkomstenbelasting voor de donateur en van vrijstelling van erf- en schenkbelasting voor de ANBI."@nl ;
+        dct:identifier                "9922859d-2942-5a95-8ff4-9f703135f835" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <http://standaarden.overheid.nl/owms/terms/Belastingdienst> ;
+        dct:rightsHolder              <http://standaarden.overheid.nl/owms/terms/Belastingdienst> ;
+        dct:title                     "ANBI-register"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Belastingdienst"@nl ;
+                                        vcard:tel  <tel:08000543> ;
+                                        vcard:web  <https://www.belastingdienst.nl>
+                                      ] ;
+        dcat:landingPage              <https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/brochures_en_publicaties/open_data_anbi> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_25e30d03> , <http://publications.europa.eu/resource/authority/data-theme/GOVE> .

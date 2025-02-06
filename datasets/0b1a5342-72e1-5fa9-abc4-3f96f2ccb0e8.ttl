@@ -1,0 +1,53 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0b1a5342-72e1-5fa9-abc4-3f96f2ccb0e8
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register crowdfunding-platformen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 14 Verordening (EU) 2020/1503 betreffende Europese crowdfundingdienstverleners voor bedrijven en tot wijziging van Verordening (EU) 2017/1129 en Richtlijn (EU) 2019/1937"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2020/1503/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2020/1503/oj>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 2.2.8 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.8&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.8&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107, eerste lid en derde lid, onderdeel j, van de Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3:5 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=3&hoofdstuk=3.2&artikel=3:5&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=3&hoofdstuk=3.2&artikel=3:5&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 2.2.12 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.12&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.12&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:description               "Het crowdfunding-register vermeldt alle crowdfundingsplatformen die van de AFM een vergunning of ontheffing hebben gekregen. Afhankelijk van de activiteiten die het platform verricht is een vergunning als beleggingsonderneming of financiële dienstverlener nodig, of een ontheffing voor het bemiddelen in opvorderbaar geld."@nl ;
+        dct:identifier                "0b1a5342-72e1-5fa9-abc4-3f96f2ccb0e8" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:title                     "Register crowdfunding-platformen"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Autoriteit Financiële Markten"@nl ;
+                                        vcard:web  <https://www.afm.nl/nl-nl/contact/contactformulier-sector>
+                                      ] ;
+        dcat:landingPage              <https://www.afm.nl/nl-nl/sector/registers/vergunningenregisters/crowdfundingplatformen> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

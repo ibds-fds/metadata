@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:27ddc745-bd6a-5111-a1d6-1517782f39b3
+        a                             dcat:Dataset ;
+        rdfs:label                    "CRKBO Register Instellingen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 8, eerste lid, onderdeel a, onder 1° van het Uitvoeringsbesluit omzetbelasting 1968"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002633&hoofdstuk=II&artikel=8&z=2023-01-01&g=2023-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002633&hoofdstuk=II&artikel=8&z=2023-01-01&g=2023-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   "Centrum Post Initieel Onderwijs Nederland"@nl ;
+        dct:description               "Het Centraal Register Kort Beroepsonderwijs Instellingen is bedoeld voor particuliere instellingen die beroepsonderwijs verzorgen en die niet zijn erkend op grond van de Wet educatie en beroepsonderwijs of de Wet op het hoger onderwijs. Zij kunnen via inschrijving in dit register toch gebruik maken van de voor wettelijk erkende beroepsopleidingen geldende btw-vrijstelling."@nl ;
+        dct:identifier                "27ddc745-bd6a-5111-a1d6-1517782f39b3" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "Centrum Post Initieel Onderwijs Nederland"@nl ;
+        dct:rightsHolder              "Centrum Post Initieel Onderwijs Nederland"@nl ;
+        dct:title                     "CRKBO Register Instellingen"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@crkbo.nl> ;
+                                        vcard:fn     "CRKBO"@nl ;
+                                        vcard:tel    <tel:09002224111> ;
+                                        vcard:web    <https://www.crkbo.nl/>
+                                      ] ;
+        dcat:landingPage              <https://www.crkbo.nl/Register/Instellingen> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_b46b92e7> , <http://publications.europa.eu/resource/authority/data-theme/EDUC> .

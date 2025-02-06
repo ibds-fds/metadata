@@ -1,0 +1,50 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:195de478-a2e1-5c17-b165-abfcce4eaace
+        a                             dcat:Dataset ;
+        rdfs:label                    "Landelijk Asbestvolgsysteem"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 4.5 Arbobesluit"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008498&hoofdstuk=4&afdeling=5&z=2024-08-01&g=2024-08-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008498&hoofdstuk=4&afdeling=5&z=2024-08-01&g=2024-08-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 9.5.7 Wet milieubeheer"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0003245&hoofdstuk=9&titeldeel=9.5&artikel=9.5.7&z=2024-03-30&g=2024-03-30> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0003245&hoofdstuk=9&titeldeel=9.5&artikel=9.5.7&z=2024-03-30&g=2024-03-30>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Paragraaf 4.6 Arbeidsomstandighedenregeling"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008587&hoofdstuk=4&paragraaf=4.6&z=2024-05-22&g=2024-05-22> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008587&hoofdstuk=4&paragraaf=4.6&z=2024-05-22&g=2024-05-22>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Paragraaf 4 Asbestverwijderingsbesluit 2005"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0019316&paragraaf=4&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0019316&paragraaf=4&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description               "Het Landelijk Asbestvolgsysteem (LAVS) is een register waarin de verwijdering van asbest in Nederland gevolgd kan worden. Inventariseerders en asbestverwijderingsbedrijven zijn sinds 2017 verplicht om hun werkzaamheden in het LAVS te registreren. De applicatie begeleidt partijen in de asbestverwijderingsketen bij het voldoen aan hun wettelijke (informatie)plichten waarbij deze gegevens worden vastgelegd in de database. De data zijn per asbestverwijderingstraject toegankelijk voor de betrokken opdrachtgevers, inventariseerders, asbestverwijderingsbedrijven, eindinspectiebedrijven en toezichthouders."@nl ;
+        dct:identifier                "195de478-a2e1-5c17-b165-abfcce4eaace" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title                     "Landelijk Asbestvolgsysteem"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:helpdesk.iplo@rws.nl> ;
+                                        vcard:fn     "Landelijk Asbestvolgsysteem Helpdesk"@nl ;
+                                        vcard:tel    <tel:+31887970790> ;
+                                        vcard:web    <https://iplo.nl/formulieren/vragenformulier-lavs/>
+                                      ] ;
+        dcat:landingPage              <https://www.asbestvolgsysteem.nl/lavs-web/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ENVI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3> .

@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:2a361f57-0ce1-5244-9c52-cf92b0464b69
+        a                             dcat:Dataset ;
+        rdfs:label                    "Neonatale Hielprikscreening; registratie afwijkende uitslag"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk I Regeling bevolkingsonderzoek ex artikel 12a, derde lid, Wet publieke gezondheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0044919&hoofdstuk=I&z=2021-04-01&g=2021-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0044919&hoofdstuk=I&z=2021-04-01&g=2021-04-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1 Besluit RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032719&artikel=1&z=2022-11-30&g=2022-11-30> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032719&artikel=1&z=2022-11-30&g=2022-11-30>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3 Wet op het RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008289&hoofdstuk=2&artikel=3&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008289&hoofdstuk=2&artikel=3&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:description               "Neorah (wordt beheerd door Dienst Vaccinvoorziening en Preventieprogramma's (DVP)) bevat gegevens uit Praeventis  (DVP) van het RIVM over een afwijkende uitslag van een kind dat via een medisch adviseur van het RIVM wordt verwezen naar een (gespecialiseerd) kinderarts voor diagnostiek en behandeling. De informatie over de afwijkende hielprikuitslag wordt door de medisch adviseur in Neorah geregistreerd. De behandelend kinderarts voegt aan deze informatie de uitslag van de diagnostiek toe, oftewel of de diagnose waarvoor het kind verwezen is bevestigd of niet.\r\nVoor een aantal aandoeningen is Neorah verder ontwikkeld en kan de behandelend kinderarts ook informatie over de lange termijn follow-up bij het kind registreren in een aparte database. Dit is van belang om onderzoek naar de verdere ontwikkeling van de kinderen met een aandoening waarop gescreend wordt met de hielprik te stimuleren en meer inzicht te krijgen in de effectiviteit van de hielprikscreening."@nl ;
+        dct:identifier                "2a361f57-0ce1-5244-9c52-cf92b0464b69" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:title                     "Neonatale Hielprikscreening; registratie afwijkende uitslag"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:pns@rivm.nl> ;
+                                        vcard:fn     "Centrum voor Bevolkingsonderzoek"@nl ;
+                                        vcard:tel    <tel:+31886898989> ;
+                                        vcard:web    <https://www.pns.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.neorah.nl/login> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> .

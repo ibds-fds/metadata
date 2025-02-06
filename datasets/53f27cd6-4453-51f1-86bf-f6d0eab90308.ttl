@@ -1,0 +1,55 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:53f27cd6-4453-51f1-86bf-f6d0eab90308
+        a                             dcat:Dataset ;
+        rdfs:label                    "CRT - F-gassenverordening"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 9, derde lid, Besluit gefluoreerde broeikasgassen en ozonlaagafbrekende stoffen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0037088&paragraaf=3&artikel=9&z=2023-04-19&g=2023-04-19> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0037088&paragraaf=3&artikel=9&z=2023-04-19&g=2023-04-19>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) nr. 517/2014 betreffende gefluoreerde broeikasgassen en tot intrekking van Verordening (EG) nr. 842/2006"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2014/517/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2014/517/oj>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6, derde lid, Besluit gefluoreerde broeikasgassen en ozonlaagafbrekende stoffen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0037088&paragraaf=2&artikel=6&z=2023-04-19&g=2023-04-19> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0037088&paragraaf=2&artikel=6&z=2023-04-19&g=2023-04-19>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 12 Regeling gefluoreerde broeikasgassen en ozonlaagafbrekende stoffen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0037094&paragraaf=5&artikel=12&z=2020-04-01&g=2020-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0037094&paragraaf=5&artikel=12&z=2020-04-01&g=2020-04-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 1005/2009 betreffende de ozonlaag afbrekende stoffen"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2009/1005/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2009/1005/oj>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description               "Het Centraal Register Techniek zorgt voor een betrouwbaar en toegankelijk kwaliteitsregister voor de (installatie)techniekbranche. Het kwaliteitsregister is er voor vakbedrijven en vakspecialisten, opdrachtgevers, opleiders, brancheverenigingen en kwaliteitsbewakers in de (installatie)techniekbranche.\r\n\r\nGecertificeerde bedrijven en personen zijn opgenomen in het f-gassenregister dat per 1 november 2022 door de overheid is ondergebracht bij het Centraal Register Techniek. Opdrachtgevers en handhavende instanties kunnen zo in dit register op een snelle en eenduidige manier zien of bedrijven en personen die werkzaamheden uitvoeren aan koelinstallaties over de juiste certificering beschikken."@nl ;
+        dct:identifier                "53f27cd6-4453-51f1-86bf-f6d0eab90308" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "Stichting Centraal Register Techniek"@nl ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title                     "CRT - F-gassenverordening"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:helpdesk@centraalregistertechniek.nl> ;
+                                        vcard:fn     "Centraal Register Techniek"@nl ;
+                                        vcard:tel    <tel:+31262030625> ;
+                                        vcard:web    <https://www.centraalregistertechniek.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.centraalregistertechniek.nl/kwaliteitsregister> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd> .

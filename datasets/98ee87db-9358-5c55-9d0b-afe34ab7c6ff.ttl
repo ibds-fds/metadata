@@ -1,0 +1,44 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:98ee87db-9358-5c55-9d0b-afe34ab7c6ff
+        a                             dcat:Dataset ;
+        rdfs:label                    "Donorregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 10 Wet op de orgaandonatie"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008066&hoofdstuk=3&paragraaf=1&artikel=10&z=2020-07-01&g=2020-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008066&hoofdstuk=3&paragraaf=1&artikel=10&z=2020-07-01&g=2020-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 10a Wet op de orgaandonatie"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008066&hoofdstuk=3&paragraaf=1&artikel=10a&z=2020-07-01&g=2020-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008066&hoofdstuk=3&paragraaf=1&artikel=10a&z=2020-07-01&g=2020-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Besluit orgaandonatie"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0043448&hoofdstuk=2&artikel=2&z=2021-06-01&g=2021-06-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0043448&hoofdstuk=2&artikel=2&z=2021-06-01&g=2021-06-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:description               "Het Donorregister behelst het ontvangen, controleren en registreren van wilsbeschikkingen van Nederlandse ingezetenen van 12 jaar en ouder voor orgaan- en weefseldonaties, het aanschrijven van nog niet geregistreerde en meer dan drie jaar in Nederland wonende Nederlandse ingezetenen van 18 jaar en ouder en het registreren van deze ingezetenen van 18 jaar en ouder die na aanschrijving geen actieve wilsbeschikking hebben kenbaar gemaakt als hebbende ‘geen bezwaar’. Het Donorregister verstrekt daarnaast informatie over registraties aan geregistreerde burgers en de Nederlandse Transplantatie Stichting (NTS). \r\n\r\nEen burger kan zelf in het Donorregister de eigen gegevens bekijken, maar het raadplegen van gegevens zal echter vooral gebeuren door de Nederlandse Transplantatie Stichting (NTS) te Leiden. De NTS kan het Donorregister 24 uur per dag raadplegen om wanneer het overlijden van een patiënt aanstaande is, de wilsbeschikking van die patiënt te kunnen inzien"@nl ;
+        dct:identifier                "98ee87db-9358-5c55-9d0b-afe34ab7c6ff" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:title                     "Donorregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Het Donorregister"@nl ;
+                                        vcard:tel  <tel:09008212166> ;
+                                        vcard:web  <https://www.donorregister.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.donorregister.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

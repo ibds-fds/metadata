@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:3540df25-b6cf-506c-854f-472306607706
+        a                             dcat:Dataset ;
+        rdfs:label                    "Advocatentableau"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 8a Advocatenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002093&afdeling=1&artikel=8a&z=2024-04-01&g=2024-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002093&afdeling=1&artikel=8a&z=2024-04-01&g=2024-04-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 8 Advocatenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002093&afdeling=1&artikel=8&z=2024-04-01&g=2024-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002093&afdeling=1&artikel=8&z=2024-04-01&g=2024-04-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10012> ;
+        dct:description               "Het bureau van de NOvA houdt de gegevens bij van advocaten op grond van artikel 8 van de Advocatenwet. Het betreft onder andere de (contact)gegevens van de advocaat zoals naam, geboortedatum, kantoornaam, vestigingsadres en telefoonnummers.\r\n\r\nDe NOvA verstrekt deze gegevens ter uitvoering van haar wettelijke taak aan onder andere de lokale orden van advocaten, de Raad voor Rechtsbijstand, de Raad voor de rechtspraak, de Stichting Ondersteuning Tuchtcolleges Advocatuur, de Hoge Raad, de Uitvoeringsorganisatie Beroepsopleiding Advocaten, de uitgever van het Advocatenblad en overige bevoegde instanties of organisaties. \r\n\r\nDaarnaast heeft eenieder recht op inzage in het tableau op grond, en onder de voorwaarden, van artikel 8a van de Advocatenwet lid 2 t/m 4. Deze inzage wordt gefaciliteerd met de website zoals vermeld onder kenmerk “Identifier”.\r\n\r\nDe rechten en verplichtingen zijn opgenomen in het privacy statement."@nl ;
+        dct:identifier                "3540df25-b6cf-506c-854f-472306607706" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10012> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10012> ;
+        dct:title                     "Advocatentableau"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:bar@advocatenorde.nl> ;
+                                        vcard:fn     "team Beheer Advocaten Registratie"@nl ;
+                                        vcard:tel    <tel:+31703353535> ;
+                                        vcard:web    <https://advocatenorde.nl>
+                                      ] ;
+        dcat:landingPage              <https://zoekeenadvocaat.nl> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

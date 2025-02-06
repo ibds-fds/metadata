@@ -1,0 +1,33 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:328379af-8783-573a-a9c8-1d42ff389630
+        a                             dcat:Dataset ;
+        rdfs:label                    "Basisadministratie volksverzekeringen (BAV)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 35 Wet structuur uitvoeringsorganisatie werk en inkomen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0013060&hoofdstuk=6&artikel=35&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0013060&hoofdstuk=6&artikel=35&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1073> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000143> ;
+        dct:description               "SVB voert verschillende regelingen uit zoals de Algemene ouderdomswet (AOW), de Algemene nabestaandenwet (ANW), de Algemene kinderbijslagwet (AKW) en de vaststelling van verzekering voor de Wet langdurige zorg (Wlz). \r\nDaartoe zijn in de Basisadministratie volksverzekeringen (BAV) gegevens opgenomen over verzekerden en uitkeringsgerechtigden zoals:\r\n- naam, adres en woonplaats,\r\n- e-mailadres en telefoonnummer,\r\n- burgerservicenummer (BSN), burgerlijke staat,\r\n   geboortedatum, geboorteland, geboorteplaats, nationaliteit.\r\nOp basis van deze gegevens wordt bepaald of een burger wel of niet verzekerd is voor een van de bovengenoemde volksverzekeringen."@nl ;
+        dct:identifier                "328379af-8783-573a-a9c8-1d42ff389630" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000143> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000143> ;
+        dct:title                     "Basisadministratie volksverzekeringen (BAV)"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Sociale Verzekeringsbank"@nl ;
+                                        vcard:web  <https://www.svb.nl/nl/over-de-svb/contact/bepaal-uw-vestiging>
+                                      ] ;
+        dcat:landingPage              <https://www.svb.nl/nl/over-de-svb/hoe-werken-we/register-persoonsgegevens> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d4890526> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

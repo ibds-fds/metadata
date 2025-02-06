@@ -1,0 +1,29 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:dd66d667-c604-5a2c-a010-69bea344326c
+        a                  dcat:Dataset ;
+        rdfs:label         "Bestand geRegistreerde Ongevallen in Nederland (BRON)"@nl ;
+        dct:accessRights   <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority      <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator        <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description    "In de verkeersongevallenregistratie worden alle verkeersongevallen in Nederland verwerkt die door de politie zijn vastgelegd in processen-verbaal of kenmerkenmeldingen. Een verkeersongeval is een gebeurtenis op de openbare weg, die verband houdt met verkeer en waardoor er schade ontstaat aan objecten of letsel bij personen en waarbij ten minste één rijdend voertuig betrokken is. Naast informatie van politie worden ook meldingen van ongevallen met blikschade door Weginspecteurs van Rijkswaterstaat in de verkeersongevallenregistratie opgenomen. Het product BRON (Bestand geRegistreerde Ongevallen in Nederland) wordt samengesteld uit deze database. Het bestand wordt samengesteld door Rijkswaterstaat. \r\n\r\nBRON bevat een groot aantal kenmerken van het ongeval en de daarbij betrokken bestuurders en slachtoffers. De locatie van het ongeval is gekoppeld aan het Nationaal Wegenbestand (NWB). Van de gevallen die door de politie worden geregistreerd, worden in de regel ongeveer veertig kenmerken genoteerd. Veel kenmerken hiervan zijn objectief en na het ongeval vast te stellen. Zaken die na het plaatsvinden van het ongeval niet eenvoudig door de politie zijn vast te stellen (zoals te hard rijden) worden minder vaak als oorzaak aangeduid dan de wat duidelijker omstandigheden zoals geen voorrang of geen doorgang verlenen.\r\n\r\nGegevens in BRON zijn beschikbaar vanaf 1976. Vanaf 1987 is het bestand ook online te verkrijgen. Voor dodelijke ongevallen is het bestand voor ongeveer 90% compleet. Voor lichtere ongevallen is het bestand minder compleet, omdat politie niet bij elk ongeval aanwezig is. Door de combinatie met de data van andere partijen wordt een zo betrouwbaar mogelijk beeld gegeven."@nl ;
+        dct:identifier     "dd66d667-c604-5a2c-a010-69bea344326c" ;
+        dct:license        <http://creativecommons.org/publicdomain/mark/1.0/deed.nl> ;
+        dct:publisher      <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title          "Bestand geRegistreerde Ongevallen in Nederland (BRON)"@nl ;
+        dcat:contactPoint  [ a          vcard:Kind ;
+                             vcard:fn   "Servicedesk Data Rijkswaterstaat"@nl ;
+                             vcard:tel  <tel:+31887973999> ;
+                             vcard:web  <https://www.rijkswaterstaat.nl/formulieren/contactformulier-servicedesk-data>
+                           ] ;
+        dcat:landingPage   <https://nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/4gqrs90k-vobr-5t59-x726-4x2unrs1vawz> ;
+        dcat:theme         <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac> .

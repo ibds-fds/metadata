@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:135cb8ab-1d9c-5507-9906-e0d771854d4f
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register beëdigde tolken en vertalers (Rbtv)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Wet beëdigde tolken en vertalers"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0022704&hoofdstuk=II&paragraaf=1&artikel=2&z=2018-07-28&g=2018-07-28> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0022704&hoofdstuk=II&paragraaf=1&artikel=2&z=2018-07-28&g=2018-07-28>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Regeling aanwijzing bewerker en mandaat register beëdigde tolken en vertalers"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024993&paragraaf=2&artikel=2&z=2024-06-01&g=2024-06-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024993&paragraaf=2&artikel=2&z=2024-06-01&g=2024-06-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 10 Besluit beëdigde tolken en vertalers"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024896&hoofdstuk=4&artikel=10&z=2020-07-01&g=2020-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024896&hoofdstuk=4&artikel=10&z=2020-07-01&g=2020-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000150> ;
+        dct:description               "In het Rbtv staan tolken en vertalers  ingeschreven die bevoegd zijn om in Nederland als beëdigde tolk en/of beëdigde vertaler werkzaam te zijn. Sinds 1 januari 2009 zijn bepaalde afnemers uit het justitiedomein verplicht om, in het kader van het straf- en vreemdelingenrecht, in beginsel een tolk of vertaler uit het Rbtv in te zetten. Gewaarmerkte vertalingen mogen alleen maar gemaakt worden door vertalers uit het Rbtv."@nl ;
+        dct:identifier                "135cb8ab-1d9c-5507-9906-e0d771854d4f" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000150> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000150> ;
+        dct:title                     "Register beëdigde tolken en vertalers (Rbtv)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:infowbtv@rvr.org> ;
+                                        vcard:fn     "Bureau Wbtv"@nl ;
+                                        vcard:tel    <tel:+31887871920> ;
+                                        vcard:web    <https://www.bureauwbtv.nl/formulieren/contactformulier-wbtv/>
+                                      ] ;
+        dcat:landingPage              <https://zoekeentolkvertaler.bureauwbtv.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:cfd82cc4-d23d-50b3-a268-668d39b40d99
+        a                             dcat:Dataset ;
+        rdfs:label                    "Duikregister civiele Duiksector"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1.5j Arbeidsomstandighedenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0001969&artikel=13a&z=2023-04-19&g=2023-04-19> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0001969&artikel=13a&z=2023-04-19&g=2023-04-19>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6.5 Arbeidsomstandighedenregeling"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008587&hoofdstuk=6&paragraaf=6.2&artikel=6.5&z=2024-05-22&g=2024-05-22> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008587&hoofdstuk=6&paragraaf=6.2&artikel=6.5&z=2024-05-22&g=2024-05-22>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1073> ;
+        dct:creator                   "Nederlands Duikcentrum Certificatie Instelling"@nl ;
+        dct:description               "Dit betreft het openbaar register voor certificaathouders werkzaam in de civiele duiksector."@nl ;
+        dct:identifier                "cfd82cc4-d23d-50b3-a268-668d39b40d99" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "Nederlands Duikcentrum Certificatie Instelling"@nl ;
+        dct:rightsHolder              "Nederlands Duikcentrum Certificatie Instelling"@nl ;
+        dct:title                     "Duikregister civiele Duiksector"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:post@ndcci.nl> ;
+                                        vcard:fn     "NDC-CI"@nl ;
+                                        vcard:tel    <tel:+31702170980> ;
+                                        vcard:web    <https://www.ndcci.nl/welkom/contactgegevens>
+                                      ] ;
+        dcat:landingPage              <https://www.duikregister.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_4e83eca7> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

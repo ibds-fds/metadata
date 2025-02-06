@@ -1,0 +1,33 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:bbc60bcb-6034-5854-8e5c-b28af45800ce
+        a                             dcat:Dataset ;
+        rdfs:label                    "R&O Register (Reinigen en ontsmetten van vervoer- en transportmiddelen)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2.10c, tweede lid, van het Besluit houders van dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0035217&hoofdstuk=2&paragraaf=3a&artikel=2.10c&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0035217&hoofdstuk=2&paragraaf=3a&artikel=2.10c&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:description               "In het register zijn erkende R&O-plaatsen opgenomen voor vervoer- en transportmiddelen voor dieren. Deze R&O-plaatsen voldoen aan de eisen die daaraan op grond van de Wet dieren wordeng gesteld. \r\nOm de insleep en verspreiding van besmettelijke dierziekten te voorkomen."@nl ;
+        dct:identifier                "bbc60bcb-6034-5854-8e5c-b28af45800ce" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:title                     "R&O Register (Reinigen en ontsmetten van vervoer- en transportmiddelen)"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "NVWA"@nl ;
+                                        vcard:web  <https://www.nvwa.nl/over-de-nvwa/contact/vraag-stellen-aan-de-nvwa>
+                                      ] ;
+        dcat:landingPage              <https://www.nvwa.nl/onderwerpen/erkenningen-registraties-en-vergunningen/aanvragen-en-informatie-per-bedrijfstype-product-of-activiteit/r-o-plaats-veevervoermiddelen-erkenning/r-o-plaats-veevervoermiddelen-erkende-bedrijven-en-vergunninghouders> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> .

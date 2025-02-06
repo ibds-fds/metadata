@@ -1,0 +1,34 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:282b264c-8c2c-5366-b275-4ee89f379034
+        a                             dcat:Dataset ;
+        rdfs:label                    "Registratie van energielabels"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 5.14 Omgevingsregeling"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0045528&hoofdstuk=5&afdeling=5.1&paragraaf=5.1.2&artikel=5.14&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0045528&hoofdstuk=5&afdeling=5.1&paragraaf=5.1.2&artikel=5.14&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:description               "EP-Online is de officiële landelijke database waarin energielabels en energieprestatie-indicatoren van gebouwen zijn opgenomen. Geldige energielabels zijn gratis te raadplegen (alleen openbare informatie). De database bevat de volgende gegevens: de verstrekte energielabels en de datum van afgifte ervan, de gegevens op basis waarvan die energielabels zijn vastgesteld, de bewijsstukken ter onderbouwing van de gegevens voor energielabels voor woningen, de motivering van de erkende energielabeldeskundigen bij de certificering van de gegevens voor energielabels voor woningen en de gegevens die ten grondslag liggen aan energielabels voor utiliteitsgebouwen en de gegevens op basis waarvan een energie-index van woningen kan worden bepaald."@nl ;
+        dct:identifier                "282b264c-8c2c-5366-b275-4ee89f379034" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:title                     "Registratie van energielabels"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rijksdienst voor Ondernemend Nederland"@nl ;
+                                        vcard:tel  <tel:+31880424242> ;
+                                        vcard:web  <https://www.rvo.nl/onderwerpen/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.ep-online.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ENER> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4f1867a> .

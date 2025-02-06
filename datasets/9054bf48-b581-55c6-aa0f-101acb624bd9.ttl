@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:9054bf48-b581-55c6-aa0f-101acb624bd9
+        a                             dcat:Dataset ;
+        rdfs:label                    "Gezagsregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit gezagsregisters"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002685&z=2023-01-01&g=2023-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002685&z=2023-01-01&g=2023-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 244 Burgerlijk Wetboek Boek 1"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002656&boek=1&titeldeel=13&afdeling=4&artikel=244&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002656&boek=1&titeldeel=13&afdeling=4&artikel=244&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/def/thes/bhg/rechtbanken> ;
+        dct:description               "In het gezagsregister staan:\r\n- rechterlijke beslissingen over het gezag van een minderjarig kind;\r\n- aantekeningen over het gezamenlijk gezag van ongehuwde ouders;\r\n- aantekeningen over het gezag na overlijden van de ouders;\r\n- aantekening verklaring moeder en erkenner dat moeder alleen het gezag zal uitoefenen.\r\n\r\nAantekeningen die gevolgen hebben voor de gezagssituatie van een minderjarige worden doorgegeven aan de gemeente en vastgelegd in de BRP."@nl ;
+        dct:identifier                "9054bf48-b581-55c6-aa0f-101acb624bd9" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/def/thes/bhg/rechtbanken> ;
+        dct:title                     "Gezagsregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rechtspraak Servicecentrum"@nl ;
+                                        vcard:tel  <tel:+31883616161> ;
+                                        vcard:web  <https://www.rechtspraak.nl/Registers/Gezagsregister/Paginas/default.aspx>
+                                      ] ;
+        dcat:landingPage              <https://www.rechtspraak.nl/Registers/Gezagsregister/Paginas/default.aspx> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

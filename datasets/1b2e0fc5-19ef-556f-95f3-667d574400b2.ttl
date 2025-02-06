@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:1b2e0fc5-19ef-556f-95f3-667d574400b2
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register van Functionarissen voor de Gegevensbescherming (FG's)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 37, zevende lid, Algemene verordening gegevensbescherming"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2016/679> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2016/679/2016-05-04>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   "Autoriteit Persoonsgegevens"@nl ;
+        dct:description               "Dit register bevat de namen van de functionarissen voor gegevensbescherming (FG’s) die zijn aangesteld door bedrijven, brancheorganisaties, overheden of andere organisaties. Een FG houdt binnen een organisatie toezicht op de toepassing en naleving van de AVG. Heeft een organisatie een FG aangesteld, dan kunnen meldingen van gegevensverwerkingen bij de FG worden gedaan in plaats van bij de AP."@nl ;
+        dct:identifier                "1b2e0fc5-19ef-556f-95f3-667d574400b2" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "Autoriteit Persoonsgegevens"@nl ;
+        dct:rightsHolder              "Autoriteit Persoonsgegevens"@nl ;
+        dct:title                     "Register van Functionarissen voor de Gegevensbescherming (FG's)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@autoriteitpersoonsgegevens.nl> ;
+                                        vcard:fn     "Autoriteit Persoonsgegevens"@nl ;
+                                        vcard:tel    <tel:+31708888500> ;
+                                        vcard:web    <https://www.autoriteitpersoonsgegevens.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.autoriteitpersoonsgegevens.nl/fg-informatie/fg-aanmelden> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

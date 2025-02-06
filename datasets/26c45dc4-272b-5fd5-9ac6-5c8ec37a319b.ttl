@@ -1,0 +1,34 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:26c45dc4-272b-5fd5-9ac6-5c8ec37a319b
+        a                             dcat:Dataset ;
+        rdfs:label                    "Nummerregister burgerservicenummers"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3, eerste lid, onderdeel a, Wet algemene bepalingen burgerservicenummer"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0022428&hoofdstuk=2&paragraaf=1&artikel=3&z=2018-07-28&g=2018-07-28> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0022428&hoofdstuk=2&paragraaf=1&artikel=3&z=2018-07-28&g=2018-07-28>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10103> ;
+        dct:description               "Het Nummerregister is een registratie waarin de status van alle nummers wordt vastgelegd. Per nummer wordt vastgelegd: \r\n- in welke status het nummer zich bevindt (aangemaakt, gedistribueerd, in verkeer of uit verkeer); \r\n- aan welke instantie het nummer is gedistribueerd; \r\n- welke instantie het nummer heeft opgewaardeerd; \r\n- de instantie die heeft gewijzigd in welke achterliggende registratie de persoonsgegevens zijn opgeslagen (het omhangen van een nummer); \r\n- welke instantie het nummer uit verkeer heeft gehaald.\r\nDe functie van het nummerregister is om BSN’s gecontroleerd uit te geven en te controleren of een BSN geldig is.\r\nNb, Het toekennen van een BSN aan een burger gebeurt in de BRP. Dat wil zeggen, alle uitgegeven BSN’s zijn opgenomen in de BRP (ingezteneningezetenen, niet-ingezetenen en ingezetenen BES-eilanden - laatste miv wetswijziging)."@nl ;
+        dct:identifier                "26c45dc4-272b-5fd5-9ac6-5c8ec37a319b" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10103> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10103> ;
+        dct:title                     "Nummerregister burgerservicenummers"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rijksdienst voor Identiteitsgegevens"@nl ;
+                                        vcard:tel  <tel:+31889001000> ;
+                                        vcard:web  <https://www.rvig.nl/service/contact-met-rvig>
+                                      ] ;
+        dcat:landingPage              <https://www.rvig.nl/burgerservicenummer> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/GOVE> , <https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b> .

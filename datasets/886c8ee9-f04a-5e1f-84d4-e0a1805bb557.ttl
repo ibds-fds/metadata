@@ -1,0 +1,34 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:886c8ee9-f04a-5e1f-84d4-e0a1805bb557
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register paspoortsignaleringen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 25, derde lid, Paspoortwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0005212&hoofdstuk=III&paragraaf=2&artikel=25&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0005212&hoofdstuk=III&paragraaf=2&artikel=25&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10103> ;
+        dct:description               "In het Register paspoortsignaleringen (RPS) zijn de gegevens opgenomen van personen aan wie geen paspoort verstrekt mag worden en van personen van wie het paspoort vervallen verklaard is.\r\n\r\nIn het RPS worden alleen personen opgenomen die op grond van de Paspoortwet aanspraak maken op een Nederlands reisdocument. Dit kunnen ook personen zijn met een andere nationaliteit dan de Nederlandse. Een aantal instanties, bijvoorbeeld de Belastingdienst en het Openbaar Ministerie, mogen een persoon voordragen voor dit register laten opnemen. De Rijksdienst voor Identiteitsgegevens (RvIG) beheert het RPS."@nl ;
+        dct:identifier                "886c8ee9-f04a-5e1f-84d4-e0a1805bb557" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10103> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10103> ;
+        dct:title                     "Register paspoortsignaleringen"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rijksdienst voor Identiteitsgegevens"@nl ;
+                                        vcard:tel  <tel:+31889001000> ;
+                                        vcard:web  <https://www.rvig.nl/service/contact-met-rvig>
+                                      ] ;
+        dcat:landingPage              <https://www.rvig.nl/register-paspoortsignaleringen> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/GOVE> , <https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b> .

@@ -1,0 +1,34 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:8d0b9d6d-00ed-5d90-a2bb-0fd6bc3cd286
+        a                             dcat:Dataset ;
+        rdfs:label                    "Landelijk Implantaten Register (LIR)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 7a Wet kwaliteit, klachten en geschillen zorg"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0037173&hoofdstuk=2&paragraaf=1&artikel=7a&z=2022-01-01&g=2022-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0037173&hoofdstuk=2&paragraaf=1&artikel=7a&z=2022-01-01&g=2022-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:description               "Het Landelijk Implantaten Register is een centraal register waardoor snel inzicht verkregen wordt welke implantaten wanneer door welke zorgaanbieder zijn gebruikt. Bij problemen met implantaten kan de Inspectie Gezondheidszorg en Jeugd snel en efficiënt de impact bepalen en zo nodig zorgaanbieders oproepen om de betroffen patiënten te informeren. Hiermee wordt de patiëntveiligheid verbeterd."@nl ;
+        dct:identifier                "8d0b9d6d-00ed-5d90-a2bb-0fd6bc3cd286" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:title                     "Landelijk Implantaten Register (LIR)"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "CIBG"@nl ;
+                                        vcard:tel  <tel:+31703405487> ;
+                                        vcard:web  <https://www.cibg.nl/contact/contactformulier>
+                                      ] ;
+        dcat:landingPage              <https://www.cibg.nl/lir> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> .

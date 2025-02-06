@@ -1,0 +1,44 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:53f46c68-2bea-5e09-8bb0-bf1eaae0a6b9
+        a                             dcat:Dataset ;
+        rdfs:label                    "Toelatingensdatabank gewasbeschermingsmiddelen en biociden"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 4 Wet gewasbeschermingmiddelen en biociden"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0021670&hoofdstuk=2&artikel=4&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0021670&hoofdstuk=2&artikel=4&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 57  Verordening (EG) nr. 1107/2009 betreffende het op de markt brengen van gewasbeschermingsmiddelen en tot intrekking van de Richtlijnen 79/117/EEG en 91/414/EEG van de Raad"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2009/1107> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2009/1107/2022-11-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 71 Verordening (EU) nr. 528/2012 betreffende het op de markt aanbieden en het gebruik van biociden"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2012/528> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2012/528/2024-06-11>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000201> ;
+        dct:description               "Gewasbeschermingsmiddelen en biociden mogen alleen worden verhandeld en gebruikt in Nederland, als ze zijn toegelaten. Daartoe beoordeelt het Ctgb de middelen op werking en risico's op de volgende onderwerpen: \r\n- de werkzaamheid\r\n- de effecten op het milieu \r\n- de effecten op de mens \r\n- de fysisch chemische eigenschappen \r\n\r\nIn de toelatingen databank staat uitgebreide informatie over toelatingen en de toegestane toepassingen van biociden en gewasbeschermingsmiddelen. Aan de hand van een aantasting, ziekte of plaag krijgt u een overzicht van toegelaten middelen."@nl ;
+        dct:identifier                "53f46c68-2bea-5e09-8bb0-bf1eaae0a6b9" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000201> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000201> ;
+        dct:title                     "Toelatingensdatabank gewasbeschermingsmiddelen en biociden"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Ctgb"@nl ;
+                                        vcard:tel  <tel:+31317471810> ;
+                                        vcard:web  <https://www.ctgb.nl/contact/pre-application-support/servicedesk>
+                                      ] ;
+        dcat:landingPage              <https://toelatingen.ctgb.nl/nl/authorisations> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> , <http://publications.europa.eu/resource/authority/data-theme/AGRI> .

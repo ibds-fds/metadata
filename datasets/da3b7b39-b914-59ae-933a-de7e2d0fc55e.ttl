@@ -1,0 +1,50 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:da3b7b39-b914-59ae-933a-de7e2d0fc55e
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register van Overheidsorganisaties (ROO)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3.3b Wet open overheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0045754&hoofdstuk=3&artikel=3.3b&z=2024-10-01&g=2024-10-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0045754&hoofdstuk=3&artikel=3.3b&z=2024-10-01&g=2024-10-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 136 Wet gemeenschappelijke regelingen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0003740&hoofdstuk=XII&artikel=136&z=2022-07-01&g=2022-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0003740&hoofdstuk=XII&artikel=136&z=2022-07-01&g=2022-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Koninklijk besluit van 16 julij 1859, N 50"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0034165&z=1859-07-16&g=1859-07-16> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0034165&z=1859-07-16&g=1859-07-16>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 40 Kaderwet zelfstandige bestuursorganen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020495&hoofdstuk=5&artikel=40&z=2020-01-01&g=2020-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020495&hoofdstuk=5&artikel=40&z=2020-01-01&g=2020-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1034> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10117> ;
+        dct:description               "Het Register van Overheidsorganisaties biedt toegang tot informatie van alle overheidsorganen in Nederland. Publicatie geschiedt in opdracht van het ministerie van Binnenlandse Zaken en Koninkrijksrelaties, op basis van een Koninklijk Besluit van 16 juli 1859. \r\nHet ROO bevat de volgende deelregisters:\r\n- GR-register (gemeenschappelijke regelingen)\r\n- Register Internetdomeinen Overheid\r\n- Woo-index\r\n- ZBO-register"@nl ;
+        dct:identifier                "da3b7b39-b914-59ae-933a-de7e2d0fc55e" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10117> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10117> ;
+        dct:title                     "Register van Overheidsorganisaties (ROO)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:servicedesk@koop.overheid.nl> ;
+                                        vcard:fn     "Servicedesk KOOP / Register van Overheidsorganisaties"@nl ;
+                                        vcard:tel    <tel:+31707000526> ;
+                                        vcard:web    <https://www.koopoverheid.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://organisaties.overheid.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/GOVE> , <https://identifier.overheid.nl/tooi/def/thes/top/c_3eb6243b> .

@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:db9f3dfe-c05a-5791-97d0-be9f9548db03
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Actuariële organisaties"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 148 Pensioenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020809&hoofdstuk=6&artikel=148&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020809&hoofdstuk=6&artikel=148&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "Een deel van de rapportages die pensioenfondsen jaarlijks opstellen ten behoeve van het DNB-toezicht wordt door een bevoegde actuaris gewaarmerkt. In de Pensioenwet (Pw) is bepaald dat de bevoegde actuaris onafhankelijk moet zijn van het desbetreffende pensioenfonds waarvoor hij de verklaring opstelt en geen andere werkzaamheden mag verrichten voor het pensioenfonds. DNB verleent goedkeuring aan actuariële organisaties die een gedragscode hebben conform de Pw. Deze organisaties zijn opgenomen in dit deelregister."@nl ;
+        dct:identifier                "db9f3dfe-c05a-5791-97d0-be9f9548db03" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Register Actuariële organisaties"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/register-van-actuariele-organisaties/?p=1&l=10&rc=UFdBQ0I> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

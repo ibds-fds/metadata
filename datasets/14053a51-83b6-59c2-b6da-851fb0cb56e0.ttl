@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:14053a51-83b6-59c2-b6da-851fb0cb56e0
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register online aanbieders medicijnen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 67b Geneesmiddelenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0021505&hoofdstuk=6&artikel=67b&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0021505&hoofdstuk=6&artikel=67b&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 67a Geneesmiddelenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0021505&hoofdstuk=6&artikel=67a&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0021505&hoofdstuk=6&artikel=67a&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Paragraaf 7 Regeling Geneesmiddelenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0022160&hoofdstuk=6&paragraaf=7&z=2016-01-01&g=2015-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0022160&hoofdstuk=6&paragraaf=7&z=2016-01-01&g=2015-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:description               "Sinds 1 juli 2015 gelden voor het online aanbieden van medicijnen nieuwe regels. Websites die medicijnen via internet te koop aanbieden, moeten beschikken over een Europees logo. Ook moeten zij vermeld zijn op aanbiederslijst online medicijnen."@nl ;
+        dct:identifier                "14053a51-83b6-59c2-b6da-851fb0cb56e0" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:title                     "Register online aanbieders medicijnen"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@aanbiedersmedicijnen.nl> ;
+                                        vcard:fn     "Online aanbieders medicijnen"@nl ;
+                                        vcard:tel    <tel:+31703407004> ;
+                                        vcard:web    <https://www.aanbiedersmedicijnen.nl/contact/contactformulier>
+                                      ] ;
+        dcat:landingPage              <https://www.aanbiedersmedicijnen.nl/aanbieders/aanbiederslijst> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

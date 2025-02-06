@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:7cc79463-8923-500c-a19f-a0b7d2041237
+        a                             dcat:Dataset ;
+        rdfs:label                    "Landelijke Registratie en Evaluatie van meldingen van Bijwerkingen van geneesmiddelen, vaccins en andere gezondheidsproducten"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 76 Geneesmiddelenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0021505&hoofdstuk=8&paragraaf=1&artikel=76&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0021505&hoofdstuk=8&paragraaf=1&artikel=76&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   "College ter Beoordeling van Geneesmiddelen"@nl ;
+        dct:description               "Het Nederlands Bijwerkingencentrum Lareb registreert vermoede bijwerkingen van geneesmiddelen, zoals gemeld door artsen, apothekers of patiënten. Zowel zorgverleners als patiënten kunnen direct bij Lareb met een elektronisch formulier een bijwerking melden. Per jaar ontvangt Lareb zo'n 14.000-16.000 meldingen. Elke binnengekomen melding wordt opgeslagen in de bijwerkingendatabank."@nl ;
+        dct:identifier                "7cc79463-8923-500c-a19f-a0b7d2041237" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "Bijwerkingencentrum Lareb"@nl ;
+        dct:rightsHolder              "College ter Beoordeling van Geneesmiddelen"@nl ;
+        dct:title                     "Landelijke Registratie en Evaluatie van meldingen van Bijwerkingen van geneesmiddelen, vaccins en andere gezondheidsproducten"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@lareb.nl> ;
+                                        vcard:fn     "Bijwerkingencentrum Lareb"@nl ;
+                                        vcard:tel    <tel:+31736469700> ;
+                                        vcard:web    <https://www.lareb.nl/contact/>
+                                      ] ;
+        dcat:landingPage              <https://www.lareb.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

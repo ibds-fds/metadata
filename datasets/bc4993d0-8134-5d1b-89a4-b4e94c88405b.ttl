@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:bc4993d0-8134-5d1b-89a4-b4e94c88405b
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register notariaat"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk IV Besluit op het notarisambt"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032084&hoofdstuk=IV&z=2018-01-01&g=2018-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032084&hoofdstuk=IV&z=2018-01-01&g=2018-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 5 Wet op het notarisambt"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0010388&titeldeel=II&artikel=5&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0010388&titeldeel=II&artikel=5&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10010> ;
+        dct:description               "Het register voor het notariaat bevat gegevens over notarissen, toegevoegd notarissen en kandidaat-notarissen zoals de datum van benoeming, ontslag, overlijden, plaats van vestiging, waarneming en nevenbetrekkingen. \r\nIn het register zijn ook maatregelen opgenomen die de tuchtrechter een (toegevoegd / kandidaat-) notaris heeft opgelegd. In de wet is bepaald dat een deel van die maatregelen openbaar is. Zichtbaar zijn:\r\n- waarschuwingen en berispingen waarvan de tuchtrechter expliciet heeft bepaald dat deze gepubliceerd moeten worden;\r\n- schorsingen voor een bepaalde tijd, die zijn opgelegd door de tuchtrechter; en\r\n- schorsingen met een onmiddellijke werking, die zijn opgelegd door de voorzitter van de kamer voor het notariaat (ordemaatregel). \r\nHet opvolgersarchief bevat de opvolgers van notarissen die niet meer in functie zijn."@nl ;
+        dct:identifier                "bc4993d0-8134-5d1b-89a4-b4e94c88405b" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10010> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10010> ;
+        dct:title                     "Register notariaat"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@knb.nl> ;
+                                        vcard:fn     "Koninklijke Notariële Beroepsorganisatie"@nl ;
+                                        vcard:tel    <tel:+31703307111> ;
+                                        vcard:web    <https://www.knb.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://registernotariaat.nl/registernotariaat#/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

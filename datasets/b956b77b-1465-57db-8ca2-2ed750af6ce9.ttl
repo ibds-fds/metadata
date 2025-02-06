@@ -1,0 +1,37 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:b956b77b-1465-57db-8ca2-2ed750af6ce9
+        a                             dcat:Dataset ;
+        rdfs:label                    "Registratie vliegbewijs en exploitanten van drones"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Regeling aanwijzing Dienst Wegverkeer als bevoegde autoriteit in de zin van artikel [...] voor de exploitatie van onbemande luchtvaartuigen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0044600&z=2023-07-15&g=2023-07-15> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0044600&z=2023-07-15&g=2023-07-15>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 17 Uitvoeringsverordening (EU) 2019/947 van de Commissie van 24 mei 2019 inzake de regels en procedures voor de exploitatie van onbemande luchtvaartuigen"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_impl/2019/947> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_impl/2019/947/2022-04-04>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:description               "Vanaf 31 december 2020 gelden in de Europese Unie voor alle dronevliegtuigen dezelfde regels. Dat geeft duidelijkheid en maakt het makkelijker om met een drone in de EU te vliegen.\r\n\r\nDe nieuwe regelgeving moet het luchtruim veilig houden en meer ruimte creëren voor innovatieve toepassingen met drones die verschillende werkzaamheden ondersteunen, denk aan inspecties van bijvoorbeeld dijken, verkeersmanagement, het gebruik door media en toepassingen in de landbouw. Mensen die met een drone vliegen die zwaarder is dan 250 gram of een lichtere drone met een camera moeten zich vanaf 31 december verplicht registreren bij de RDW. Is de drone zwaarder dan 250 gram dan moet er ook een vliegbewijs worden gehaald. Dit geldt ook voor mensen die een drone alleen recreatief gebruiken."@nl ;
+        dct:identifier                "b956b77b-1465-57db-8ca2-2ed750af6ce9" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:title                     "Registratie vliegbewijs en exploitanten van drones"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "RDW Klantcontactcentrum"@nl ;
+                                        vcard:web  <https://www.rdw.nl/over-rdw/contact>
+                                      ] ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_28ddcea5> , <http://publications.europa.eu/resource/authority/data-theme/ENVI> .

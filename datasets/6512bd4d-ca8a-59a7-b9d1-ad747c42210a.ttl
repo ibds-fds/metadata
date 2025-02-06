@@ -1,0 +1,34 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:6512bd4d-ca8a-59a7-b9d1-ad747c42210a
+        a                             dcat:Dataset ;
+        rdfs:label                    "KLIC"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk 3 Wet informatie-uitwisseling bovengrondse en ondergrondse netten en netwerken"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0040728&hoofdstuk=3&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0040728&hoofdstuk=3&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1045> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/def/thes/bhg/kabelenleidingbeheerders> ;
+        dct:description               "Via KLIC verstrekt het Kadaster informatie over de ligging van kabels en leidingen. Het doel van KLIC is het voorkomen van graafschade."@nl ;
+        dct:identifier                "6512bd4d-ca8a-59a7-b9d1-ad747c42210a" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000195> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/def/thes/bhg/kabelenleidingbeheerders> ;
+        dct:title                     "KLIC"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Klantenservice KLIC"@nl ;
+                                        vcard:tel  <tel:08000080> ;
+                                        vcard:web  <https://www.rijksoverheid.nl/contact/contactgids/kabels-en-leidingen-informatiecentrum-klic>
+                                      ] ;
+        dcat:landingPage              <https://www.kadaster.nl/zakelijk/registraties/landelijke-voorzieningen/klic> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_9af4b880> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:fc086c0b-a74e-5da0-aadd-cbc06dcc7a05
+        a                             dcat:Dataset ;
+        rdfs:label                    "Locatieregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:2 Wet verplichte geestelijke gezondheidszorg"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0040635&hoofdstuk=1&artikel=1:2&z=2023-10-01&g=2023-10-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0040635&hoofdstuk=1&artikel=1:2&z=2023-10-01&g=2023-10-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 20 Wet zorg en dwang psychogeriatrische en verstandelijk gehandicapte cliënten"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0040632&hoofdstuk=2&paragraaf=2.6&artikel=20&z=2021-11-06&g=2021-11-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0040632&hoofdstuk=2&paragraaf=2.6&artikel=20&z=2021-11-06&g=2021-11-06>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:description               "Een zorgaanbieder die gedwongen zorg verleent onder de Wet zorg en dwang of Wet verplichte ggz moet zijn locaties geregistreerd hebben in het openbaar locatieregister."@nl ;
+        dct:identifier                "fc086c0b-a74e-5da0-aadd-cbc06dcc7a05" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:title                     "Locatieregister"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:locatieregister@minvws.nl> ;
+                                        vcard:fn     "CIBG"@nl ;
+                                        vcard:web    <https://www.dwangindezorg.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.dwangindezorg.nl/locatieregister> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> .

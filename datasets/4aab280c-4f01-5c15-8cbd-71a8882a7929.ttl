@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:4aab280c-4f01-5c15-8cbd-71a8882a7929
+        a                             dcat:Dataset ;
+        rdfs:label                    "Nederlandse Depositogarantie"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3:259a Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=3&hoofdstuk=3.5&afdeling=3.5.6&paragraaf=3.5.6.1&artikel=3:259a&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=3&hoofdstuk=3.5&afdeling=3.5.6&paragraaf=3.5.6.1&artikel=3:259a&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-09-06&g=2024-09-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-09-06&g=2024-09-06>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "Alle banken die een bankvergunning hebben van DNB vallen onder het depositogarantiestelsel. De bank valt onder het DGS als in de linkerkolom staat:\r\n- Uitoefenen van het bedrijf van bank (2:12 eerste lid Wft), of\r\n- Uitoefenen van het bedrijf van bank met beleggingsdiensten (2:13 eerste lid Wft), of\r\n- Bank aangesloten bij centrale kredietinstelling (3:111 Wft)\r\n- Centrale kredietinstelling (3:111 Wft)"@nl ;
+        dct:identifier                "4aab280c-4f01-5c15-8cbd-71a8882a7929" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Nederlandse Depositogarantie"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/register-nederlandse-depositogarantie/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

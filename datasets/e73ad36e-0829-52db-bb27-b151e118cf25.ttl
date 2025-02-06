@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:e73ad36e-0829-52db-bb27-b151e118cf25
+        a                             dcat:Dataset ;
+        rdfs:label                    "Registratie Instellingen en Opleidingen (RIO)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6.13 Wet op het hoger onderwijs en wetenschappelijk onderzoek"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0005682&hoofdstuk=6&titeldeel=3&artikel=6.13&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0005682&hoofdstuk=6&titeldeel=3&artikel=6.13&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6.4.1 Wet educatie en beroepsonderwijs"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0007625&hoofdstuk=6&titeldeel=4&artikel=6.4.1&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0007625&hoofdstuk=6&titeldeel=4&artikel=6.4.1&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1109> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10148> ;
+        dct:description               "RIO is het Registratie instellingen en opleidingen. Het bevat de basisgegevens over het door de Nederlandse staat erkende onderwijsaanbod in Nederland.  Erkend onderwijs wil zeggen al het bekostigde of financieel ondersteunde onderwijs en/of onder toezicht staand van de Nederlandse overheid. Het register bevat gegevens over het actuele en het historische aanbod.  De instellingen in het register vallen onder een onderwijsbestuur dat is gerelateerd aan een rechtspersoon in het Nederlands Handelsregister (NHR).  Het register loopt van primair onderwijs tot en met de initiële masters  in het hoger onderwijs en alles ertussen. Ook bevat het het aanbod van ‘cursussen’  die in aanmerking komen voor vergoeding door de overheid.\r\n\r\nHet register heeft een duaal karakter. Enerzijds identificeert het de instellingen en opleidingen die voorkomen in wettelijke regelingen, de zogenaamde juridische werkelijkheid. Anderzijds kunnen onderwijsorganisaties daarop naar eigen inzicht invulling geven met eigen onderwijsprofielen en onderwijsaanbieders, de zogenaamde onderwijsinrichting.  Zie het register ROD waarom dat nuttig is."@nl ;
+        dct:identifier                "e73ad36e-0829-52db-bb27-b151e118cf25" ;
+        dct:license                   <http://creativecommons.org/licenses/by-sa/4.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10148> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10148> ;
+        dct:title                     "Registratie Instellingen en Opleidingen (RIO)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:opendata@duo.nl> ;
+                                        vcard:fn     "Ketenoverleg DUO open data"@nl ;
+                                        vcard:web    <https://duo-opendata.pleio.nl>
+                                      ] ;
+        dcat:landingPage              <https://onderwijsdata.duo.nl/datasets/rio_nfo_po_vo_vavo_mbo_ho> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/EDUC> , <https://identifier.overheid.nl/tooi/def/thes/top/c_c232ae4a> .

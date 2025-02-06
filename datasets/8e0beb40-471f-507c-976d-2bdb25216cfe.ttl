@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:8e0beb40-471f-507c-976d-2bdb25216cfe
+        a                             dcat:Dataset ;
+        rdfs:label                    "Identificatie en registratie (I&R) Gezelschapsdieren"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3.30 Besluit houders van dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0035217&hoofdstuk=3&paragraaf=4&artikel=3.29&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0035217&hoofdstuk=3&paragraaf=4&artikel=3.29&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3.32 Besluit houders van dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0035217&hoofdstuk=3&paragraaf=4&artikel=3.32&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0035217&hoofdstuk=3&paragraaf=4&artikel=3.32&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:description               "Per 1 april 2013 is in Nederland een chip- en registratieverplichting voor honden ingevoerd. Elke hond die er vanaf die datum in Nederland bijkomt (door geboorte of import), moet een chip hebben en geregistreerd worden bij een van de daarvoor aangewezen portalen (databanken). Deze verplichting begint al bij de fokker en/of handelaar die een pup wil verkopen of de persoon of organisatie die een hond uit het buitenland haalt."@nl ;
+        dct:identifier                "8e0beb40-471f-507c-976d-2bdb25216cfe" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:title                     "Identificatie en registratie (I&R) Gezelschapsdieren"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rijksdienst voor Ondernemend Nederland"@nl ;
+                                        vcard:tel  <tel:+31880424242> ;
+                                        vcard:web  <https://www.rvo.nl/onderwerpen/contact>
+                                      ] ;
+        dcat:landingPage              <https://mijn.rvo.nl/honden-niet-bedrijfsmatig-houden> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> .

@@ -1,0 +1,33 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:a44f1f76-2474-5562-8b3b-edcd48634db5
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Genotificeerde prospectussen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 21, lid 5, van de Prospectus Verordening"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2017/1129/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2017/1129/oj>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:description               "Dit register bevat een overzicht van prospectussen die zijn goedgekeurd door de bevoegde autoriteit van een andere lidstaat en zijn genotificeerd aan de AFM."@nl ;
+        dct:identifier                "a44f1f76-2474-5562-8b3b-edcd48634db5" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:title                     "Register Genotificeerde prospectussen"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Autoriteit Financiële Markten"@nl ;
+                                        vcard:web  <https://www.afm.nl/nl-nl/contact/contactformulier-sector>
+                                      ] ;
+        dcat:landingPage              <https://www.afm.nl/nl-nl/sector/registers/meldingenregisters/genotificeerde-prospectussen> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

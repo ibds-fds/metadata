@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:a322a2b4-3593-52a4-ae26-846e416533de
+        a                             dcat:Dataset ;
+        rdfs:label                    "Donorgegevens Kunstmatige Bevruchting"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 4 Wet donorgegevens kunstmatige bevruchting"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0013642&paragraaf=3&artikel=4&z=2021-07-01&g=2021-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0013642&paragraaf=3&artikel=4&z=2021-07-01&g=2021-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000137> ;
+        dct:description               "De Stichting donorgegevens kunstmatige bevruchting bewaart en beheert de gegevens van sperma-, eicel- en embryodonoren. Deze worden landelijk geregistreerd en op verzoek aan het donorkind of de ouder verstrekt."@nl ;
+        dct:identifier                "a322a2b4-3593-52a4-ae26-846e416533de" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000137> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000137> ;
+        dct:title                     "Donorgegevens Kunstmatige Bevruchting"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@donorgegevens.nl> ;
+                                        vcard:fn     "Stichting donorgegevens kunstmatige bevruchting"@nl ;
+                                        vcard:tel    <tel:+31703405540> ;
+                                        vcard:web    <https://www.donorgegevens.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.donorgegevens.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> .

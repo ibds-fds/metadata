@@ -1,0 +1,33 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:60996363-c0e9-5535-8cca-4cf9c56a9862
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register van verzet"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 257e, zevende lid, Wetboek van Strafvordering"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0001903&boek=Tweede&titeldeel=IVa&afdeling=Vijfde&artikel=257e&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0001903&boek=Tweede&titeldeel=IVa&afdeling=Vijfde&artikel=257e&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <http://standaarden.overheid.nl/owms/terms/Openbaar_Ministerie> ;
+        dct:description               "Van ieder verzet wordt dadelijk aantekening gedaan in een daartoe bestemd register dat door belanghebbenden kan worden ingezien. Indien het verzet in persoon wordt gedaan, wordt op verzoek een kopie van de akte van verzet uitgereikt."@nl ;
+        dct:identifier                "60996363-c0e9-5535-8cca-4cf9c56a9862" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <http://standaarden.overheid.nl/owms/terms/Openbaar_Ministerie> ;
+        dct:rightsHolder              <http://standaarden.overheid.nl/owms/terms/Openbaar_Ministerie> ;
+        dct:title                     "Register van verzet"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Openbaar Ministerie"@nl ;
+                                        vcard:web  <https://www.om.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.om.nl/onderwerpen/strafbeschikking/verzet> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_98e03e32> , <http://publications.europa.eu/resource/authority/data-theme/JUST> .

@@ -1,0 +1,60 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0044f3b6-d373-5689-9592-6b0e40da5cd1
+        a                             dcat:Dataset ;
+        rdfs:label                    "Justitieel Documentatie Systeem (JDS)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk 3 Besluit justitiële en strafvorderlijke gegevens"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0016544&hoofdstuk=3&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0016544&hoofdstuk=3&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 47 Besluit justitiële en strafvorderlijke gegevens"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0016544&hoofdstuk=5&artikel=47&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0016544&hoofdstuk=5&artikel=47&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 42 Wet justitiële en strafvorderlijke gegevens"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0014194&titeldeel=3&artikel=42&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0014194&titeldeel=3&artikel=42&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 40 Wet justitiële en strafvorderlijke gegevens"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0014194&titeldeel=3&artikel=40&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0014194&titeldeel=3&artikel=40&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Titel 2, Afdeling 2 Wet justitiële en strafvorderlijke gegevens"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0014194&titeldeel=2&afdeling=2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0014194&titeldeel=2&afdeling=2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Wet justitiële en strafvorderlijke gegevens"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0014194&titeldeel=2&afdeling=1&artikel=2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0014194&titeldeel=2&afdeling=1&artikel=2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   "http://standaarden.overheid.nl/op/terms/Justitiele_Informatiedienst"@nl ;
+        dct:description               "Justitiële Documentatie:\r\nIn de Justitiële Documentatie worden gegevens verwerkt in het kader van lopende en afgeronde strafzaken van zowel natuurlijke personen als rechtspersonen die nodig zijn voor een goede strafrechtspleging. De Justitiële Documentatie heeft tot doel om een volledig overzicht te geven van het justitiële verleden van deze personen. \r\n\r\nDe gegevens die in de Justitiële Documentatie (kunnen) worden verwerkt, worden justitiële gegevens genoemd. In het Besluit justitiële en strafvorderlijke gegevens is bepaald welke gegevens als justitiële gegevens worden aangemerkt.   \r\n\r\nIn de Wet justitiële en strafvorderlijke gegevens en het Besluit justitiële en strafvorderlijke gegevens is bepaald aan wie justitiële gegevens mogen worden verstrekt en voor welk doel. \r\n\r\nDocumentatie Persoonsdossiers:\r\nIn verband met strafzaken of bij de tenuitvoerlegging van opgelegde straffen of maatregelen wordt door een (jeugd) reclasseringsinstelling, de Raad voor de Kinderbescherming of het Nederlands Instituut voor Forensische Psychiatrie en Psychologie onderzoek gedaan naar het gedrag of de levensomstandigheden van personen. De uitkomsten van dit soort onderzoeken komen in een rapport en worden aangeboden aan bijvoorbeeld een rechter of officier van justitie. \r\n\r\nOp grond van de Wet justitiële en strafvorderlijke gegevens worden deze rapporten (persoonsdossiers) verwerkt en bewaard in het Justitieel Documentatie Systeem (JDS).  De wet bepaalt aan wie rapportages uit het persoonsdossier  mogen worden verstrekt en voor welk doel."@nl ;
+        dct:identifier                "0044f3b6-d373-5689-9592-6b0e40da5cd1" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "http://standaarden.overheid.nl/op/terms/Justitiele_Informatiedienst"@nl ;
+        dct:rightsHolder              "http://standaarden.overheid.nl/op/terms/Justitiele_Informatiedienst"@nl ;
+        dct:title                     "Justitieel Documentatie Systeem (JDS)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@justid.nl> ;
+                                        vcard:fn     "Justitiële Informatiedienst"@nl ;
+                                        vcard:tel    <tel:+31889989000> ;
+                                        vcard:web    <https://www.justid.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.justid.nl/producten-en-dienstencatalogus/nieuwbouw-en-onderhoud-systemen/informatiesystemen/justitieel-documentatie-systeem-jds> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d58b78ca> .

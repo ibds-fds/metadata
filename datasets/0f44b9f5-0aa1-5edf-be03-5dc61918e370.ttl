@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0f44b9f5-0aa1-5edf-be03-5dc61918e370
+        a                             dcat:Dataset ;
+        rdfs:label                    "BIG-register"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3 Wet op de beroepen in de individuele gezondheidszorg"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0006251&hoofdstuk=II&paragraaf=1&artikel=3&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0006251&hoofdstuk=II&paragraaf=1&artikel=3&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:description               "Het BIG-register (Beroepen in de Individuele Gezondheidszorg) is een wettelijk, online en openbaar register. De Wet BIG heeft een tweeledige doelstelling: het bewaken en het bevorderen van de kwaliteit van de beroepsuitoefening én het beschermen van de zorggebruikers tegen ondeskundig en onzorgvuldig handelen door beroepsbeoefenaren.\r\n\r\nAlleen wie in het BIG-register staat, mag een beschermde beroepstitel voeren en mag de bij het beroep horende voorbehouden handelingen zelfstandig uitvoeren. Elke ingeschreven zorgverlener krijgt een persoonlijk 11-cijferig BIG-inschrijfnummer toegekend. In totaal kunnen 12 beroepsgroepen zich inschrijven:\r\n- artsen;\r\n- apothekers;\r\n- fysiotherapeuten;\r\n- gezondheidszorgpsychologen;\r\n- psychotherapeuten;\r\n- tandartsen;\r\n- verloskundigen;\r\n- verpleegkundigen;\r\n- klinisch technologen;\r\n- orthopedagoog-generalist;\r\n- physician assistants;\r\n- geregistreerd-mondhygiënisten."@nl ;
+        dct:identifier                "0f44b9f5-0aa1-5edf-be03-5dc61918e370" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:title                     "BIG-register"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@bigregister.nl> ;
+                                        vcard:fn     "BIG-register"@nl ;
+                                        vcard:tel    <tel:+31703406600> ;
+                                        vcard:web    <https://www.bigregister.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.bigregister.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

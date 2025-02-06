@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:3480015d-17bf-58cb-8c78-bed3a81eca18
+        a                             dcat:Dataset ;
+        rdfs:label                    "WRM-register rij-instructeurs"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Regeling rijonderricht motorrijtuigen 2009"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0025890&z=2020-07-01&g=2020-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0025890&z=2020-07-01&g=2020-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk 2, artikel 2 Wet rijonderricht motorrijtuigen 1993"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0006073&hoofdstuk=II&z=2021-04-24&g=2021-04-24> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0006073&hoofdstuk=II&z=2021-04-24&g=2021-04-24>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   "IBKI"@nl ;
+        dct:description               "In dit register op basis van de Wet rijonderricht motorrijtuigen 1993 worden worden door IBKI gegevens opgenomen over oa. de bevoegdheid van (aspirant) rij-instructeurs."@nl ;
+        dct:identifier                "3480015d-17bf-58cb-8c78-bed3a81eca18" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "IBKI"@nl ;
+        dct:rightsHolder              "IBKI"@nl ;
+        dct:title                     "WRM-register rij-instructeurs"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@ibki.nl> ;
+                                        vcard:fn     "IBKI"@nl ;
+                                        vcard:tel    <tel:+31306087766> ;
+                                        vcard:web    <https://ibki.nl/keuzehulp>
+                                      ] ;
+        dcat:landingPage              <https://ibki.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

@@ -1,0 +1,30 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:5e663c64-3fcf-52ed-8eb5-00c51e44ee71
+        a                  dcat:Dataset ;
+        rdfs:label         "Digitaal Topografisch Bestand (DTB)"@nl ;
+        dct:accessRights   <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority      <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator        <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description    "Het Digitaal Topografisch Bestand (DTB) is het standaard geo-informatiebestand voor Rijkswaterstaat en het ministerie van Infrastructuur en Waterstaat. Het DTB dient als basisbestand voor diverse werkprocessen, van beheer en onderhoud tot onderzoek en begrotingen."@nl ;
+        dct:identifier     "5e663c64-3fcf-52ed-8eb5-00c51e44ee71" ;
+        dct:license        <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher      <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title          "Digitaal Topografisch Bestand (DTB)"@nl ;
+        dcat:contactPoint  [ a            vcard:Kind ;
+                             vcard:email  <mailto:Geocontroletool-dtb@rws.nl> ;
+                             vcard:fn     "Team Geocontroletool"@nl ;
+                             vcard:tel    <tel:+31887973999> ;
+                             vcard:web    <https://www.rijkswaterstaat.nl/formulieren/contactformulier-servicedesk-data>
+                           ] ;
+        dcat:landingPage   <https://nationaalgeoregister.nl/geonetwork?uuid=c4b137b8-2317-42c2-aced-204c4216d68d> ;
+        dcat:theme         <https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

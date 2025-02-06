@@ -1,0 +1,37 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0ca3d31e-8ea4-5f29-a0f5-7433ffc1cced
+        a                             dcat:Dataset ;
+        rdfs:label                    "Rijbewijzenregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 126 Wegenverkeerswet 1994"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0006622&hoofdstuk=VI&afdeling=8&artikel=126&z=2024-06-19&g=2024-06-19> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0006622&hoofdstuk=VI&afdeling=8&artikel=126&z=2024-06-19&g=2024-06-19>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 145 Reglement rijbewijzen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008074&hoofdstuk=VII&artikel=145&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008074&hoofdstuk=VII&artikel=145&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:description               "In het Rijbewijzenregister staan naast de voertuigcategorieën waarvoor de houder bevoegd is te besturen, diverse persoonsgegevens van de rijbewijshouder, zoals naam- en adresgegevens en pasfoto. Ook legt RDW bijzondere persoonsgegevens vast, bijvoorbeeld medische gegevens die met de rijbevoegdheid te maken hebben. Daarnaast worden strafrechtelijke gegevens en ongeldigverklaringen vastgelegd als dat van toepassing is.\r\n\r\nHet rijbewijs is naast een rijvaardigheidsdocument ook een identiteitsdocument."@nl ;
+        dct:identifier                "0ca3d31e-8ea4-5f29-a0f5-7433ffc1cced" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:title                     "Rijbewijzenregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "RDW Klantcontactcentrum"@nl ;
+                                        vcard:web  <https://www.rdw.nl/over-rdw/contact>
+                                      ] ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

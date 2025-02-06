@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:c566cc37-3091-54b5-a578-3aceae642de9
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Banken"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107, eerste lid, van de Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 2.2.2 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "In het register staan alle Nederlandse banken met een vergunning en buitenlandse banken die met een Europees paspoort in Nederland actief zijn. En verder nog banken die een ontheffing van DNB hebben van twee verbodsbepalingen. U ziet per bank welke activiteiten de bank in Nederland mag uitvoeren. Voor Nederlandse banken kunt u ook zien of ze activiteiten in de Europese Economische Ruimte (EER) mogen uitvoeren."@nl ;
+        dct:identifier                "c566cc37-3091-54b5-a578-3aceae642de9" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Register Banken"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/register-van-banken/?p=1&l=10&rc=V0ZUS0Y> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

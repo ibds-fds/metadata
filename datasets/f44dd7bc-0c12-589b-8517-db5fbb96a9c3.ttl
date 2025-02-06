@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:f44dd7bc-0c12-589b-8517-db5fbb96a9c3
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Betaalinstellingen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 2.2.0 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.0&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=2&hoofdstuk=2.2&afdeling=2.2.0&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107, eerste lid, van de Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "Een betaalinstelling verleent betaaldiensten, zoals het mogelijk maken van geldstortingen, geldopnames, automatische incasso’s en overboekingen.\r\nOp basis van de Wet op het financieel toezicht (Wft) moeten betaaldienstverleners over een DNB-vergunning beschikken om in Nederland activiteiten te mogen verrichten, tenzij de betaaldienstverlener is vrijgesteld van de vergunningplicht of de betaaldiensten aanbiedt op basis van een Europees Paspoort."@nl ;
+        dct:identifier                "f44dd7bc-0c12-589b-8517-db5fbb96a9c3" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Register Betaalinstellingen"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/register-van-betaalinstellingen/?p=1&l=10&rc=V0ZUQkk> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

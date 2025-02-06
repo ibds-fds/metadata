@@ -1,0 +1,59 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:a26c08de-6e90-57a0-9def-34151fffa229
+        a                             dcat:Dataset ;
+        rdfs:label                    "Levende dieren en levende producten - Erkende inrichtingen op veterinair gebied"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Uitvoeringsverordening (EU) 2021/620"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_impl/2021/620> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_impl/2021/620/2024-08-02>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) 2019/2035"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_del/2019/2035> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_del/2019/2035/2023-04-06>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) 2016/429"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2016/429> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2016/429/2021-04-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Wet dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030250&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030250&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) 2020/686"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_del/2020/686> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_del/2020/686/2023-04-10>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit houders van dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0035217&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0035217&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:description               "Lijst van bedrijven, instellingen, instituten en centra met een erkenning voor het werken met levende dieren en levende producten en van waaruit levende dieren naar andere lidstaten van de EU mogen worden verplaatst."@nl ;
+        dct:identifier                "a26c08de-6e90-57a0-9def-34151fffa229" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:title                     "Levende dieren en levende producten - Erkende inrichtingen op veterinair gebied"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Nederlandse Voedsel- en Warenautoriteit"@nl ;
+                                        vcard:tel  <tel:09000388> ;
+                                        vcard:web  <https://www.nvwa.nl/over-de-nvwa/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.nvwa.nl/onderwerpen/erkenningen-registraties-en-vergunningen/lijsten-bedrijven-met-een-erkenning-registratie-of-vergunning/inrichtingen-op-veterinair-gebied> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> , <http://publications.europa.eu/resource/authority/data-theme/AGRI> .

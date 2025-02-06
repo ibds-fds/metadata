@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:d89c8e77-55f8-5657-a244-7c82efeee4d8
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register kwalificatiestructuur van SBB"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 7.2.4 Wet educatie en beroepsonderwijs"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0007625&hoofdstuk=7&titeldeel=2&paragraaf=2&artikel=7.2.4&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0007625&hoofdstuk=7&titeldeel=2&paragraaf=2&artikel=7.2.4&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1.5.1 Wet educatie en beroepsonderwijs"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0007625&hoofdstuk=I&titeldeel=5&artikel=1.5.1&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0007625&hoofdstuk=I&titeldeel=5&artikel=1.5.1&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1109> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000145> ;
+        dct:description               "Het Register kwalificatiestructuur bevat een overzicht van alle producten die deel uitmaken van de kwalificatiestructuur voor het mbo: kwalificatiedossiers, certificaten en keuzedelen. Het bevat de kwalificatiestructuur zoals die vanaf 2015 vastgesteld is . \r\nDe producten van de kwalificatiestructuur zijn te downloaden. Het register bevat bovendien een database met servicedocumenten (Downloads) over de kwalificatiestructuur, zoals de crebokoppeltabel en een xml-versie van de kwalificatiestructuur."@nl ;
+        dct:identifier                "d89c8e77-55f8-5657-a244-7c82efeee4d8" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000145> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000145> ;
+        dct:title                     "Register kwalificatiestructuur van SBB"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Samenwerkingsorganisatie beroepsonderwijs bedrijfsleven"@nl ;
+                                        vcard:tel  <tel:+31883380000> ;
+                                        vcard:web  <https://kwalificatie-mijn.s-bb.nl/>
+                                      ] ;
+        dcat:landingPage              <https://kwalificatie-mijn.s-bb.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_b46b92e7> , <http://publications.europa.eu/resource/authority/data-theme/EDUC> .

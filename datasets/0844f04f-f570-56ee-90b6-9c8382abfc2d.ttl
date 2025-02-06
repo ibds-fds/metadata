@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0844f04f-f570-56ee-90b6-9c8382abfc2d
+        a                             dcat:Dataset ;
+        rdfs:label                    "Registratie stralingsartsen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 7.23 Besluit basisveiligheidsnormen stralingsbescherming"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0040179&hoofdstuk=7&afdeling=7.1&paragraaf=7.1.4&artikel=7.23&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0040179&hoofdstuk=7&afdeling=7.1&paragraaf=7.1.4&artikel=7.23&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 7.22 Besluit basisveiligheidsnormen stralingsbescherming"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0040179&hoofdstuk=7&afdeling=7.1&paragraaf=7.1.4&artikel=7.22&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0040179&hoofdstuk=7&afdeling=7.1&paragraaf=7.1.4&artikel=7.22&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3.1 Regeling stralingsbescherming beroepsmatige blootstelling 2018"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0040573&paragraaf=3&artikel=3.1&z=2018-02-06&g=2018-02-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0040573&paragraaf=3&artikel=3.1&z=2018-02-06&g=2018-02-06>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000216> ;
+        dct:description               "Stralingsartsen moeten voldoen aan de criteria die in de Regeling stralingsbescherming beroepsmatige blootstelling 2018 staan. Indien zij aan die eisen voldoen, worden zij door de Autoriteit Nuclaire Veiligheid en Stralingsbescherming ingeschreven in het Register stralingsarts"@nl ;
+        dct:identifier                "0844f04f-f570-56ee-90b6-9c8382abfc2d" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000216> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000216> ;
+        dct:title                     "Registratie stralingsartsen"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:postbusaanvragenenmelden@anvs.nl> ;
+                                        vcard:fn     "Autoriteit Nucleaire Veiligheid en Stralingsbescherming"@nl ;
+                                        vcard:tel    <tel:+31884890500> ;
+                                        vcard:web    <https://loket.anvs.nl/formulier/nl-NL/DefaultEnvironment/scVragen.aspx/>
+                                      ] ;
+        dcat:landingPage              <https://www.autoriteitnvs.nl/voor-professionals/documenten/publicatie/2019/09/02/register-stralingsbeschermingsdeskundigen-en-stralingsartsen> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

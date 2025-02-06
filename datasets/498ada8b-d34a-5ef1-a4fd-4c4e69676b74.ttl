@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:498ada8b-d34a-5ef1-a4fd-4c4e69676b74
+        a                             dcat:Dataset ;
+        rdfs:label                    "Centraal Curatele- en bewindregister (CCBR)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit aanwijzing Raad voor de rechtspraak als orgaan dat curatele- en bewindregister houdt"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0034535&z=2014-01-01&g=2014-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0034535&z=2014-01-01&g=2014-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 391 Burgerlijk Wetboek Boek 1"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002656&boek=1&titeldeel=16&artikel=391&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002656&boek=1&titeldeel=16&artikel=391&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:description               "Het register bevat een overzicht van de personen ten aanzien van wie een curatele is uitgesproken en personen waarvan het vermogen onder bewind is gesteld. Om gegevens uit het register in te kunnen zien, zijn de  achternaam en geboortedatum van een persoon nodig."@nl ;
+        dct:identifier                "498ada8b-d34a-5ef1-a4fd-4c4e69676b74" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:title                     "Centraal Curatele- en bewindregister (CCBR)"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rechtspraak Servicecentrum"@nl ;
+                                        vcard:tel  <tel:+31883616161> ;
+                                        vcard:web  <https://ccbr.rechtspraak.nl/#!/>
+                                      ] ;
+        dcat:landingPage              <https://ccbr.rechtspraak.nl/#!/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

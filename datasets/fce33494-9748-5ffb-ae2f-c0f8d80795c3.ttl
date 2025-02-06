@@ -1,0 +1,30 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:fce33494-9748-5ffb-ae2f-c0f8d80795c3
+        a                  dcat:Dataset ;
+        rdfs:label         "Nationaal Wegenbestand - Vaarwegen"@nl ;
+        dct:accessRights   <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority      <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator        <https://identifier.overheid.nl/tooi/def/thes/bhg/wegbeheerders> ;
+        dct:description    "Het Nationaal Wegenbestand-Vaarwegen betreft een digitaal geografisch bestand van alle bevaarbare waterwegen voor de beroeps- en recreatievaart in Nederland."@nl ;
+        dct:identifier     "fce33494-9748-5ffb-ae2f-c0f8d80795c3" ;
+        dct:license        <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher      <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder   <https://identifier.overheid.nl/tooi/def/thes/bhg/wegbeheerders> ;
+        dct:title          "Nationaal Wegenbestand - Vaarwegen"@nl ;
+        dcat:contactPoint  [ a            vcard:Kind ;
+                             vcard:email  <mailto:nwb@rws.nl> ;
+                             vcard:fn     "Team Nationaal Wegenbestand"@nl ;
+                             vcard:tel    <tel:08008002> ;
+                             vcard:web    <https://www.rijkswaterstaat.nl/formulieren/contactformulier-servicedesk-data>
+                           ] ;
+        dcat:landingPage   <https://vaarweginformatie.nl/> ;
+        dcat:theme         <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab> .

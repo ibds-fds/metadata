@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:25520356-27c1-5543-9249-0a7f0b118728
+        a                             dcat:Dataset ;
+        rdfs:label                    "Centrale Voorziening Geluidgegevens"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 11.52 Besluit kwaliteit leefomgeving"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0041313&hoofdstuk=11&afdeling=11.2&paragraaf=11.2.5&sub-paragraaf=11.2.5.2&artikel=11.52&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0041313&hoofdstuk=11&afdeling=11.2&paragraaf=11.2.5&sub-paragraaf=11.2.5.2&artikel=11.52&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 11.51 Besluit kwaliteit leefomgeving"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0041313&hoofdstuk=11&afdeling=11.2&paragraaf=11.2.5&sub-paragraaf=11.2.5.2&artikel=11.51&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0041313&hoofdstuk=11&afdeling=11.2&paragraaf=11.2.5&sub-paragraaf=11.2.5.2&artikel=11.51&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/def/thes/bhg/bestuursorganen> ;
+        dct:description               "In het Geluidregister staan de geluidgegevens voor de geluidbronnen weg, spoor, industrie, windturbines, luchtvaart en schiet- en springterreinen. Gebruikers van deze gegevens zijn bijvoorbeeld geluidexperts, beleidsmedewerkers, projectontwikkelaars of burgers. De CVGG helpt zo om gegevens voor akoestisch onderzoek uit te wisselen en de geluidproductie te monitoren.\r\n\r\nDe Europese richtlijn omgevingslawaai verplicht lidstaten tot het opstellen van een geluidbelastingkaart en een actieplan geluid. De bestuursorganen leveren deze bij de CVGG aan. Het Rijk verstrekt deze geluidbelastingkaarten en actieplannen aan de Europese Commissie."@nl ;
+        dct:identifier                "25520356-27c1-5543-9249-0a7f0b118728" ;
+        dct:license                   <http://creativecommons.org/publicdomain/mark/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/def/thes/bhg/bestuursorganen> ;
+        dct:title                     "Centrale Voorziening Geluidgegevens"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:cvgg@rivm.nl> ;
+                                        vcard:fn     "Servicedesk CVGG"@nl ;
+                                        vcard:web    <https://www.geluidgegevens.nl/geluidregister/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.geluidgegevens.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_afa30a11> , <http://publications.europa.eu/resource/authority/data-theme/ENVI> .

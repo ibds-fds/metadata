@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:961c54dc-8b08-5d2f-a67d-ebf0c8ffb799
+        a                             dcat:Dataset ;
+        rdfs:label                    "Trusted service providers"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2.5c Telecommunicatiewet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0009950&hoofdstuk=2&paragraaf=2.2&artikel=2.5c&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0009950&hoofdstuk=2&paragraaf=2.2&artikel=2.5c&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 20.15a Telecommunicatiewet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0009950&hoofdstuk=20&artikel=20.15a&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0009950&hoofdstuk=20&artikel=20.15a&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1045> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10219> ;
+        dct:description               "De huidige lijst is de vertrouwenslijst met informatie over de gekwalificeerde verleners van vertrouwensdiensten waarop Nederland toezicht houdt, als ook informatie over de gekwalificeerde vertrouwensdiensten die door hen worden verleend, in overeenstemming met de relevante bepalingen zoals vastgelegd in Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 over elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG.\r\nHet grensoverschrijdend gebruik van elektronische handtekeningen is geregeld in de Beschikking van de Commissie van 16 oktober 2009, die Lidstaten verplicht tot het opstellen, bijwerken en publiceren van vertrouwenslijsten bevattende informatie met betrekking tot certificatiedienstverleners die gekwalificeerde certificaten afgeven aan het publiek, in overeenstemming met Richtlijn 1999/93/EG van het Europees Parlement en de Raad van 13 december 1999 betreffende een gemeenschappelijk kader voor elektronische handtekeningen, en die onder toezicht staan door of zijn geaccrediteerd in de Lidstaten. De huidige vertrouwenslijst is een voortzetting van de vertrouwenslijst zoals ingesteld volgens Beschikking 2009/767/EG van de Commissie."@nl ;
+        dct:identifier                "961c54dc-8b08-5d2f-a67d-ebf0c8ffb799" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10219> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10219> ;
+        dct:title                     "Trusted service providers"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@rdi.nl> ;
+                                        vcard:fn     "Rijksinspectie Digitale Infrastructuur"@nl ;
+                                        vcard:tel    <tel:+31880416000> ;
+                                        vcard:web    <https://www.rdi.nl/documenten/formulieren/2022/06/02/contactformulier>
+                                      ] ;
+        dcat:landingPage              <https://www.rdi.nl/onderwerpen/elektronische-vertrouwensdiensten/statuslijst-van-vertrouwensdiensten> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab> .

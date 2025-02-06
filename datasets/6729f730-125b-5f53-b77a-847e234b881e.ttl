@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:6729f730-125b-5f53-b77a-847e234b881e
+        a                             dcat:Dataset ;
+        rdfs:label                    "Nationaal Parkeerregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 4b lid 2 Wegenverkeerswet 1994"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0006622&hoofdstuk=IA&paragraaf=2&artikel=4b&z=2024-06-19&g=2024-06-19> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0006622&hoofdstuk=IA&paragraaf=2&artikel=4b&z=2024-06-19&g=2024-06-19>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2, onderdeel r, Regeling taken Dienst Wegverkeer"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008144&artikel=2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008144&artikel=2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/def/thes/bhg/gemeentes> ;
+        dct:description               "Het Nationaal Parkeer Register (NPR) is een landelijk register waarin alle actuele parkeerrechten op kenteken geregistreerd staan. Het NPR biedt de noodzakelijke basisinfrastructuur waarmee een gemeente stap voor stap parkeerdiensten kan digitaliseren. \r\n\r\nHergebruik: alle niet-gevoelige gegevens in het register zijn beschikbaar als open data: https://opendata.rdw.nl. \r\nDe volledige registratie is dus geen open data. De licentie is daarom niet open en toegang is beperkt."@nl ;
+        dct:identifier                "6729f730-125b-5f53-b77a-847e234b881e" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000149> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/def/thes/bhg/gemeentes> ;
+        dct:title                     "Nationaal Parkeerregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "RDW Klantcontactcentrum"@nl ;
+                                        vcard:web  <https://www.rdw.nl/over-rdw/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.nationaalparkeerregister.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_849842ac> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

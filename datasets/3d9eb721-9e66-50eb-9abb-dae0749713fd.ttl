@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:3d9eb721-9e66-50eb-9abb-dae0749713fd
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register openbaarmaking voorwetenschap"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 17, eerste lid, van de Verordening marktmisbruik"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2014/596/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2014/596/oj>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107, derde lid, onderdeel c, onder 2°, van de Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:description               "In dit register zijn persberichten te vinden van uitgevende ondernemingen waarvan financiële instrumenten met hun toestemming worden verhandeld in Nederland, zoals vermeld in artikel 17 van de EU-Verordening Marktmisbruik (MAR). Op grond artikel 17, eerste lid, MAR, zijn deze uitgevende ondernemingen verplicht voorwetenschap openbaar te maken door middel van (o.a.) een persbericht. Deze berichten blijven beschikbaar voor een periode van tenminste 5 jaar.\r\nDit register wordt meerdere keren per dag tijdens kantooruren geactualiseerd. De persberichten worden met enige vertraging ten opzichte van de tijd van publicatie in het register getoond."@nl ;
+        dct:identifier                "3d9eb721-9e66-50eb-9abb-dae0749713fd" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:title                     "Register openbaarmaking voorwetenschap"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Autoriteit Financiële Markten"@nl ;
+                                        vcard:web  <https://www.afm.nl/nl-nl/contact/contactformulier-sector>
+                                      ] ;
+        dcat:landingPage              <https://www.afm.nl/nl-nl/sector/registers/meldingenregisters/openbaarmaking-voorwetenschap> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

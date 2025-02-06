@@ -1,0 +1,34 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:87d85745-844c-5ba4-8fb8-7a7de31083d3
+        a                             dcat:Dataset ;
+        rdfs:label                    "Openbaar register erkende referenten"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2c, zesde lid, Vreemdelingenwet 2000"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0011823&hoofdstuk=1&afdeling=3&paragraaf=2&artikel=2c&z=2024-07-25&g=2024-07-25> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0011823&hoofdstuk=1&afdeling=3&paragraaf=2&artikel=2c&z=2024-07-25&g=2024-07-25>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10222> ;
+        dct:description               "Een erkende referent kan een verblijfsvergunning aanvragen voor bijvoorbeeld werknemers of studenten. In het register is opgenomen welke organisaties erkende referent zijn per verblijfsdoel uit de Vreemdelingenwet. \r\nHet register bevat de erkende referenten voor de volgende verblijfsdoelen:\r\n- Arbeid  (aanvragen voor verblijfsvergunningen met als doel arbeid als kennismigrant, arbeid in loondienst, seizoenarbeid, lerend werken, overplaatsing binnen een onderneming of verblijf als houder van de Europese blauwe kaart);\r\n- Uitwisseling (aanvragen voor verblijfsvergunningen met als doel au pair en culturele uitwisseling);\r\n-  Studie (aanvragen voor verblijfsvergunningen met als doel studie);\r\n-  Onderzoek (aanvragen voor verblijfsvergunningen met als doel onderzoek volgens richtlijn (EU) 2016/801)."@nl ;
+        dct:identifier                "87d85745-844c-5ba4-8fb8-7a7de31083d3" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10222> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10222> ;
+        dct:title                     "Openbaar register erkende referenten"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Immigratie- en Naturalisatiedienst"@nl ;
+                                        vcard:tel  <tel:+31880430430> ;
+                                        vcard:web  <https://ind.nl/nl/service-en-contact/contact-met-ind/e-mail>
+                                      ] ;
+        dcat:landingPage              <https://ind.nl/nl/openbaar-register-erkende-referenten> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_399f194b> , <http://publications.europa.eu/resource/authority/data-theme/INTR> .

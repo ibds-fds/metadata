@@ -1,0 +1,50 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:86774110-f5eb-5a7b-b16a-f928d9310085
+        a                             dcat:Dataset ;
+        rdfs:label                    "Overzicht van Medisch-wetenschappelijk Onderzoek in Nederland (OMON)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 73, derde lid, van Verordening (EU) 2017/745 betreffende medische hulpmiddelen"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2017/745> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2017/745/2024-07-09>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 69, derde lid, van Verordening (EU) 2017/746 betreffende medische hulpmiddelen voor in-vitrodiagnostiek"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2017/746> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2017/746/2024-07-09>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 81, vierde lid, van Verordening (EU) 536/2014 betreffende klinische proeven met geneesmiddelen voor menselijk gebruik"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2014/536> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2014/536/2022-12-05>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3, eerste lid, onderdeel l, van de Wet medisch-wetenschappelijk onderzoek met mensen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0009408&paragraaf=2&artikel=3&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0009408&paragraaf=2&artikel=3&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000206> ;
+        dct:description               "Het Overzicht van Medisch-wetenschappelijk Onderzoek in Nederland (OMON), voorheen Landelijk Trial Register, is een register waarin een deel van het medisch-wetenschappelijk onderzoek in Nederland geregistreerd staat. Het omvat momenteel alle gegevens uit het oude Nationaal Trial Register en de onderzoeken uit het CCMO-register.\r\nOMON is een officiële dataleverancier aan het International Clinical Trial Registry Platform (ICTRP) van de Wereld Gezondheidsorganisatie (WHO)."@nl ;
+        dct:identifier                "86774110-f5eb-5a7b-b16a-f928d9310085" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000206> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000206> ;
+        dct:title                     "Overzicht van Medisch-wetenschappelijk Onderzoek in Nederland (OMON)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:omon@ccmo.nl> ;
+                                        vcard:fn     "CCMO"@nl ;
+                                        vcard:tel    <tel:+31703406700> ;
+                                        vcard:web    <https://onderzoekmetmensen.nl/nl/service/contact>
+                                      ] ;
+        dcat:landingPage              <https://onderzoekmetmensen.nl/nl> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_08d12aef> , <http://publications.europa.eu/resource/authority/data-theme/EDUC> .

@@ -1,0 +1,44 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:fe9dc51c-29d5-507c-a9c2-c6a872636482
+        a                             dcat:Dataset ;
+        rdfs:label                    "Identificatie en registratie varkens en varkensleveringen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Deel III, Titel III, Hoofdstuk 2 Verordening (EU) 2019/2035 tot aanvulling van Verordening (EU) 2016/429 van het Europees Parlement en de Raad wat betreft regels voor inrichtingen waar landdieren worden gehouden en broederijen, alsmede voor de traceerbaarheid van bepaalde gehouden landdieren en broedeieren"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_del/2019/2035> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_del/2019/2035/2023-04-06>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 109 lid 1 onderdeel c Diergezondheidswetgeving"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2016/429> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2016/429/2021-04-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 7.2 Wet dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030250&hoofdstuk=7&artikel=7.2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030250&hoofdstuk=7&artikel=7.2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1045> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:description               "De identificatie en registratie (I&R) varkens is een database waarin alle verplaatsingen en toestemmingen voor verplaatsingen van varkens worden geregistreerd. Het doel van I&R varkens is een snelle tracering van dieren mogelijk te maken. Dit is nodig bij het uitbreken en bestrijden van dierziektes en bij het traceren van varkens die risico’s vormen voor de volksgezondheid. I&R is een Europese verplichting. Alle varkens in Nederland moeten geregistreerd zijn. Ze hebben een oormerk in en veranderingen in het aantal, de verblijfplaats en de verplaatsingen binnen Nederland en van of naar het buitenland worden in het I&R-systeem bijgehouden. De locatie krijgt dan een Uniek Bedrijfsnummer (UBN). Een UBN is een uniek nummer voor iedere locatie waar dieren worden gehouden. Het UBN wordt geregistreerd in het I&R systeem voor dieren voor:\r\n- veehouders en hobbydierhouders\r\n- slachtplaatsen\r\n- verzamelplaatsen (bijvoorbeeld een veemarkt)\r\n- evenementen (bijvoorbeeld een keuring)\r\n\r\nAlle verplaatsingen van varkens (ook van hobbydieren) moeten binnen twee werkdagen gemeld worden bij de databank van I&R."@nl ;
+        dct:identifier                "fe9dc51c-29d5-507c-a9c2-c6a872636482" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10005> ;
+        dct:title                     "Identificatie en registratie varkens en varkensleveringen"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rijksdienst voor Ondernemend Nederland"@nl ;
+                                        vcard:tel  <tel:+31880424242> ;
+                                        vcard:web  <https://www.rvo.nl/onderwerpen/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.rvo.nl/onderwerpen/identificatie-en-registratie-dieren/varkens-melden> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> .

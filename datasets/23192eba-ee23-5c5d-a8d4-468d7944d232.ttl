@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:23192eba-ee23-5c5d-a8d4-468d7944d232
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register directe lijnen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 39h Gaswet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0011440&hoofdstuk=5&paragraaf=5.1b*&artikel=39h&z=2022-10-01&g=2022-10-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0011440&hoofdstuk=5&paragraaf=5.1b*&artikel=39h&z=2022-10-01&g=2022-10-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 9h Elektriciteitswet 1998"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0009755&hoofdstuk=2A&paragraaf=3&artikel=9h&z=2022-10-01&g=2022-10-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0009755&hoofdstuk=2A&paragraaf=3&artikel=9h&z=2022-10-01&g=2022-10-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1045> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000217> ;
+        dct:description               "Bedrijven in het register directe lijnen leveren elektriciteit of gas via een directe lijn. Dit is een elektriciteitskabel of gasleiding die de producent direct verbindt met één of meer verbruikers. In het register is een korte omschrijving van de directe lijn opgenomen."@nl ;
+        dct:identifier                "23192eba-ee23-5c5d-a8d4-468d7944d232" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000217> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000217> ;
+        dct:title                     "Register directe lijnen"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:acm-post@acm.nl> ;
+                                        vcard:fn     "Autoriteit Consument en Markt"@nl ;
+                                        vcard:tel    <tel:+31707222000> ;
+                                        vcard:web    <https://www.acm.nl/nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.acm.nl/nl/energie/elektriciteit-en-gas/netbeheer/eigen-netwerk-directe-lijn/register-directe-lijnen> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

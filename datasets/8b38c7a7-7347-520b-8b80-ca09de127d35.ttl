@@ -1,0 +1,64 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:8b38c7a7-7347-520b-8b80-ca09de127d35
+        a                             dcat:Dataset ;
+        rdfs:label                    "Registratie Verordening dierlijke bijproducten"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk 3, § 2 Regeling dierlijke producten"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032462&hoofdstuk=3&paragraaf=2&z=2023-10-01&g=2023-10-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032462&hoofdstuk=3&paragraaf=2&z=2023-10-01&g=2023-10-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3.1 Besluit dierlijke producten"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032335&hoofdstuk=3&paragraaf=1&artikel=3.1&z=2023-10-07&g=2023-10-07> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032335&hoofdstuk=3&paragraaf=1&artikel=3.1&z=2023-10-07&g=2023-10-07>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 17, 23, 24 en 47 Verordening dierlijke bijproducten"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2009/1069> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2009/1069/2019-12-14>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikelen 17, 23, 24 en 47 Verordening (EG) 1069/2009 inzake dierlijke bijproducten"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2009/1069> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2009/1069/2019-12-14>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk 3, § 2 Wet Dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030250&hoofdstuk=3&paragraaf=2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030250&hoofdstuk=3&paragraaf=2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Wet dieren, Besluit dierlijke producten en Regeling dierlijke producten"@nl ;
+                                        dct:identifier         "Wet dieren, Besluit dierlijke producten en Regeling dierlijke producten"@nl ;
+                                        foaf:isPrimaryTopicOf  "Wet dieren, Besluit dierlijke producten en Regeling dierlijke producten"@nl
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:description               "Inrichtingen en bedrijven die actief zijn in de productie, het vervoer, de hantering, de verwerking, de opslag, het in de handel brengen, het gebruik of de verwijdering van dierlijke bijproducten of daarvan afgeleide producten moeten dit melden aan de NVWA."@nl , "Lijst van bedrijven met een erkenning, registratie of toestemming op grond van Verordening (EG) nr. 1069/2009."@nl ;
+        dct:identifier                "8b38c7a7-7347-520b-8b80-ca09de127d35" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:title                     "Registratie Verordening dierlijke bijproducten"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Nederlandse Voedsel- en Warenautoriteit"@nl ;
+                                        vcard:tel  <tel:09000388> ;
+                                        vcard:web  <https://www.nvwa.nl/over-de-nvwa/contact>
+                                      ] ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Nederlandse Voedsel- en Warenautoriteit"@nl ;
+                                        vcard:tel  <tel:09000388> ;
+                                        vcard:web  <https://www.nvwa.nl/over-de-nvwa/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.nvwa.nl/onderwerpen/erkenningen-registraties-en-vergunningen/lijsten-bedrijven-met-een-erkenning-registratie-of-vergunning/dierlijke-bijproducten---bedrijven-met-een-erkenning> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

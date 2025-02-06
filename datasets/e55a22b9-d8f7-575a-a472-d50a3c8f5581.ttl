@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:e55a22b9-d8f7-575a-a472-d50a3c8f5581
+        a                             dcat:Dataset ;
+        rdfs:label                    "NAP peilmerken"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Koninklijk Besluit van 18 februari 1818 N 60"@nl ;
+                                        dct:identifier         "Koninklijk Besluit van 18 februari 1818 N 60"@nl ;
+                                        foaf:isPrimaryTopicOf  "Koninklijk Besluit van 18 februari 1818 N 60"@nl
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description               "Om overal in Nederland de hoogte ten opzichte van het NAP te kunnen bepalen, zijn er door het hele land peilmerken aangebracht. Deze NAP-peilmerken hebben een hoogte ten opzichte van het NAP en zijn verankerd in onder meer woonhuizen, bruggen en viaducten. Vrijwel overal in Nederland is binnen de afstand van 1 km een peilmerk te vinden. De hoogte van de peilmerken wordt door Rijkswaterstaat bepaald door waterpassingen uitgevoerd volgens de productspecificaties 'Beheer NAP' en zijn ten opzichte van bekende NAP-hoogtes van diepgefundeerde ondergrondse NAP-merken."@nl ;
+        dct:identifier                "e55a22b9-d8f7-575a-a472-d50a3c8f5581" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title                     "NAP peilmerken"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:nap@rws.nl> ;
+                                        vcard:fn     "Rijkswaterstaat Centrale Informatievoorziening (CIV), team geodetische infrastructuur"@nl ;
+                                        vcard:tel    <tel:08008002> ;
+                                        vcard:web    <https://www.rijkswaterstaat.nl/formulieren/contactformulier-servicedesk-data>
+                                      ] ;
+        dcat:landingPage              <https://maps.rijkswaterstaat.nl/dataregister/srv/dut/catalog.search#/home> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab> .

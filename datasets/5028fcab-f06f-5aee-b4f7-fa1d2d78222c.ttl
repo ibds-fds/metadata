@@ -1,0 +1,28 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:5028fcab-f06f-5aee-b4f7-fa1d2d78222c
+        a                  dcat:Dataset ;
+        rdfs:label         "Fysische en chemische waterdata (WADAR)"@nl ;
+        dct:accessRights   <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority      <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator        <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description    "Rijkswaterstaat wint 'natte' meetgegevens in voor dagelijks beheer en/of wettelijke verplichtingen. Deze meetgegevens kunnen ook erg waardevol zijn voor gebruikers buiten Rijkswaterstaat. In WADAR staan data opgeslagen van de Rijkswateren:\r\n- Waterkwantiteitsgegevens (fysische gegevens), zoals waterstanden, golfhoogtes en watertemperaturen\r\n- Waterkwaliteitsgegevens (chemische gegevens), zoals chemische stoffen in water, waterbodem, zwevende stof en biota."@nl ;
+        dct:identifier     "5028fcab-f06f-5aee-b4f7-fa1d2d78222c" ;
+        dct:license        <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher      <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title          "Fysische en chemische waterdata (WADAR)"@nl ;
+        dcat:contactPoint  [ a          vcard:Kind ;
+                             vcard:fn   "Servicedesk Data Rijkswaterstaat"@nl ;
+                             vcard:web  <https://www.rijkswaterstaat.nl/formulieren/contactformulier-servicedesk-data>
+                           ] ;
+        dcat:landingPage   <https://rijkswaterstaatdata.nl/waterdata> ;
+        dcat:theme         <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab> .

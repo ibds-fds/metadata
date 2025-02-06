@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:8a088d5c-4df5-5c6c-b9c1-95c200c63133
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register geplaatst kapitaal uitgevende instellingen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107, derde lid, onderdeel c, onder 1°, van de Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 5.3.2 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=5&hoofdstuk=5.3&afdeling=5.3.2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=5&hoofdstuk=5.3&afdeling=5.3.2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:description               "Dit register bevat de samenstelling van het geplaatst kapitaal en de stemmen die daarop kunnen worden uitgebracht. Meldingsplichtig zijn: \r\n- Naamloze vennootschappen die zijn opgericht naar Nederlands recht waarvan (de certificaten van) aandelen zijn toegelaten tot de handel op een gereglementeerde markt in Nederland of in een andere lidstaat van de Europese Unie dan wel EER-staat. \r\n- Rechtspersonen opgericht naar het recht van een staat die geen EU-lidstaat is waarvan (de certificaten van) aandelen zijn toegelaten tot de handel op een gereglementeerde markt in Nederland.\r\nDe meldingen van het geplaatst kapitaal en stemmen worden gebruikt om een substantiële deelneming, een bruto short positie en een netto short positie te berekenen."@nl ;
+        dct:identifier                "8a088d5c-4df5-5c6c-b9c1-95c200c63133" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:title                     "Register geplaatst kapitaal uitgevende instellingen"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Autoriteit Financiële Markten"@nl ;
+                                        vcard:web  <https://www.afm.nl/nl-nl/contact/contactformulier-sector>
+                                      ] ;
+        dcat:landingPage              <https://www.afm.nl/nl-nl/sector/registers/meldingenregisters/geplaatst-kapitaal> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

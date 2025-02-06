@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:53a72fa8-aebe-5008-ac6e-6fc050579cdd
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register kwaliteit"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 11a Wet kwaliteit, klachten en geschillen zorg"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0037173&hoofdstuk=2&paragraaf=2&artikel=11a&z=2023-10-05&g=2023-10-05> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0037173&hoofdstuk=2&paragraaf=2&artikel=11a&z=2023-10-05&g=2023-10-05>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000114> ;
+        dct:description               "Het register is een digitaal overzicht van kwaliteitsstandaarden en meetinstrumenten (kwaliteitsinstrumenten) in de zorg. Met het Register zorgt het Zorginstituut ervoor dat iedereen in Nederland kan zien wat wordt verstaan onder goede zorg en hoe je goede zorg meet. \r\nEen van de eisen om in het register te komen, is dat kwaliteitsinstrumenten door relevante partijen aan het register worden aangeboden. Tot de relevante partijen behoren in ieder geval organisaties van cliënten, zorgaanbieders of zorgverleners, en zorgverzekeraars of zorgkantoren. Alle criteria voor opname in het register staan in het Toetsingskader. Met deze criteria toetst het Zorginstituut of een kwaliteitsinstrument een verantwoorde beschrijving is van goede zorg (bij kwaliteitsstandaarden) of dat het een verantwoord middel is voor het krijgen van een indicatie van de verleende zorgkwaliteit (bij meetinstrumenten)."@nl ;
+        dct:identifier                "53a72fa8-aebe-5008-ac6e-6fc050579cdd" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000114> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000114> ;
+        dct:title                     "Register kwaliteit"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:kwaliteitsgegevens@zinl.nl> ;
+                                        vcard:fn     "Zorginstituut Nederland"@nl ;
+                                        vcard:tel    <tel:+31207978555> ;
+                                        vcard:web    <https://www.zorginstituutnederland.nl/contact/contactformulier>
+                                      ] ;
+        dcat:landingPage              <https://www.zorginzicht.nl/kwaliteitsinstrumenten> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

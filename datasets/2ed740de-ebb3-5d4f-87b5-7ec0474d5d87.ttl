@@ -1,0 +1,60 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:2ed740de-ebb3-5d4f-87b5-7ec0474d5d87
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register erkende zuivelbedrijven"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 852/2004"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2004/852> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2004/852/2021-03-24>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 2073/2005"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2005/2073> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2005/2073/2020-03-08>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Uitvoeringsverordening (EU) Nr. 2019/627"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_impl/2019/627> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_impl/2019/627/2023-01-09>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) Nr. 2017/625"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2017/625/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2017/625/oj>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 853/2004"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2004/853> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2004/853/2024-05-09>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 178/2002"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2002/178> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2002/178/2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   "Stichting Controle Orgaan Kwaliteits Zaken"@nl ;
+        dct:description               "Register van in Nederland erkende zuivelbedrijven in het kader van het EU-hygiënepakket, dat regels bevat die gericht zijn op het creëren van consistentie en duidelijkheid in de gehele voedselproductieketen, van 'boer tot bord'."@nl ;
+        dct:identifier                "2ed740de-ebb3-5d4f-87b5-7ec0474d5d87" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "Stichting Controle Orgaan Kwaliteits Zaken"@nl ;
+        dct:rightsHolder              "Stichting Controle Orgaan Kwaliteits Zaken"@nl ;
+        dct:title                     "Register erkende zuivelbedrijven"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@cokz.nl> ;
+                                        vcard:fn     "Stichting Centraal Orgaan Kwaliteits Zaken"@nl ;
+                                        vcard:tel    <tel:+31334965696> ;
+                                        vcard:web    <https://cokz.nl/over-ons/contact/>
+                                      ] ;
+        dcat:landingPage              <https://cokz.nl/registers-erkende-bedrijven-zuivel-en-eieren/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63> , <http://publications.europa.eu/resource/authority/data-theme/AGRI> .

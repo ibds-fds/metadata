@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:30a63630-e727-5190-9bfe-6b7a671f9f23
+        a                             dcat:Dataset ;
+        rdfs:label                    "Centraal Krediet Informatiesysteem (CKI)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 4:32 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=4&hoofdstuk=4.3&afdeling=4.3.1&paragraaf=4.3.1.3&artikel=4:32&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=4&hoofdstuk=4.3&afdeling=4.3.1&paragraaf=4.3.1.3&artikel=4:32&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   "Stichting BKR"@nl ;
+        dct:description               "BKR houdt van elke persoon met een in Nederland afgesloten krediet een elektronisch dossier bij in het Centraal Krediet Informatiesysteem (CKI). In deze database registreert BKR persoons- en kredietgegevens van consumenten. Aan het CKI zijn een aantal producten gekoppeld die de kredietverstrekkers helpen een gezond financieel beleid te voeren."@nl ;
+        dct:identifier                "30a63630-e727-5190-9bfe-6b7a671f9f23" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "Stichting Bureau Krediet Registratie"@nl ;
+        dct:rightsHolder              "Stichting BKR"@nl ;
+        dct:title                     "Centraal Krediet Informatiesysteem (CKI)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@bkr.nl> ;
+                                        vcard:fn     "Stichting BKR"@nl ;
+                                        vcard:tel    <tel:+31881502600> ;
+                                        vcard:web    <https://www.bkr.nl/zakelijk/contact-zakelijk/>
+                                      ] ;
+        dcat:landingPage              <https://www.bkr.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_87d3d66c> .

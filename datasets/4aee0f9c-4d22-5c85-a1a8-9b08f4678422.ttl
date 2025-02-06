@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:4aee0f9c-4d22-5c85-a1a8-9b08f4678422
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register erkende kwaliteitsverklaringen"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 4 Besluit uitvoering, mandaat en machtiging inzake het erkend stelsel"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0046698&hoofdstuk=3&artikel=4&z=2022-05-24&g=2022-05-24> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0046698&hoofdstuk=3&artikel=4&z=2022-05-24&g=2022-05-24>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1171> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000336> ;
+        dct:description               "In dit register zijn erkende kwaliteitsverklaringen voor bouwproducten en -processen te vinden. Een erkende kwaliteitsverklaring bewijst dat een product of proces voldoet aan de bouwregelgeving. In het register erkende kwaliteitsverklaringen staan alle door de TloKB erkende kwaliteitsverklaringen."@nl ;
+        dct:identifier                "4aee0f9c-4d22-5c85-a1a8-9b08f4678422" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000336> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000336> ;
+        dct:title                     "Register erkende kwaliteitsverklaringen"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@tlokb.nl> ;
+                                        vcard:fn     "Toelatingsorganisatie Kwaliteitsborging Bouw"@nl ;
+                                        vcard:tel    <tel:+31703070357> ;
+                                        vcard:web    <https://www.tlokb.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://register.tlokb.nl/ekv/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:072a8419-d0c5-5845-bb1a-76a76cdb2de2
+        a                             dcat:Dataset ;
+        rdfs:label                    "Boedelregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit boedelregister"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0014438&z=2015-08-17&g=2015-08-17> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0014438&z=2015-08-17&g=2015-08-17>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 186 Burgerlijk Wetboek Boek 4"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002761&boek=4&titeldeel=6&afdeling=1&artikel=186&z=2023-05-01&g=2023-05-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002761&boek=4&titeldeel=6&afdeling=1&artikel=186&z=2023-05-01&g=2023-05-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/def/thes/bhg/rechtbanken> ;
+        dct:description               "Het boedelregister is een openbaar register, waarin informatie wordt gegeven over de rechtstoestand van een nalatenschap. Het boedelregister is kosteloos in te zien. Het boedelregister wordt bijgehouden door de Rechtbanken. Ieder arrondissement (het gebied dat onder de desbetreffende Rechtbank valt) heeft een eigen boedelregister. Per arrondissement worden uitsluitend de feiten ingeschreven die betrekking hebben op nalatenschappen van overledenen die het laatst binnen het desbetreffende arrondissement woonden."@nl ;
+        dct:identifier                "072a8419-d0c5-5845-bb1a-76a76cdb2de2" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/def/thes/bhg/rechtbanken> ;
+        dct:title                     "Boedelregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Individuele rechtbanken"@nl ;
+                                        vcard:web  <https://www.rechtspraak.nl/Registers/Paginas/Boedelregister.aspx>
+                                      ] ;
+        dcat:landingPage              <https://www.rechtspraak.nl/Registers/Paginas/Boedelregister.aspx> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

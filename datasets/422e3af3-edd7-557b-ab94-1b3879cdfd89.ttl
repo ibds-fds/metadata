@@ -1,0 +1,30 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:422e3af3-edd7-557b-ab94-1b3879cdfd89
+        a                  dcat:Dataset ;
+        rdfs:label         "Weggegevens (WEGGEG) – Kenmerken op het HoofdWegenNet"@nl ;
+        dct:accessRights   <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority      <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator        <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description    "Weggegevens op het Hoofdwegennetwerk bevat informatie over visuele kenmerken van voorzieningen langs de weg en de omvang van het rijkswegennet ten behoeve van verkeerskundige doeleinden."@nl ;
+        dct:identifier     "422e3af3-edd7-557b-ab94-1b3879cdfd89" ;
+        dct:license        <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher      <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title          "Weggegevens (WEGGEG) – Kenmerken op het HoofdWegenNet"@nl ;
+        dcat:contactPoint  [ a            vcard:Kind ;
+                             vcard:email  <mailto:weggeg@rws.nl> ;
+                             vcard:fn     "Team Nationaal Wegenbestand"@nl ;
+                             vcard:tel    <tel:08008002> ;
+                             vcard:web    <https://www.rijkswaterstaat.nl/formulieren/contactformulier-servicedesk-data>
+                           ] ;
+        dcat:landingPage   <https://www.nationaalwegenbestand.nl/> ;
+        dcat:theme         <https://identifier.overheid.nl/tooi/def/thes/top/c_cfc7d5ab> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

@@ -1,0 +1,64 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:e180f3d1-dfd9-52b9-879c-c414f1294535
+        a                             dcat:Dataset ;
+        rdfs:label                    "Landelijk Register Kinderopvang"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1.48 Wet kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=1&artikel=1.48&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=1&artikel=1.48&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1.48d Wet kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=2&artikel=1.48d&z=2021-12-21&g=2021-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=2&artikel=1.48d&z=2021-12-21&g=2021-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 10b Besluit landelijk register kinderopvang, register buitenlandse kinderopvang en personenregister kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030892&hoofdstuk=2a&artikel=10b&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030892&hoofdstuk=2a&artikel=10b&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6 Besluit landelijk register kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030892&hoofdstuk=2&artikel=6&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030892&hoofdstuk=2&artikel=6&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1.47b Wet kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=1&artikel=1.47a&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=1&artikel=1.47a&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6 Regeling Wet kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017252&paragraaf=3&artikel=6&z=2023-04-01&g=2023-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017252&paragraaf=3&artikel=6&z=2023-04-01&g=2023-04-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1.47b Wet kinderopvang"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=1&artikel=1.47b&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017017&hoofdstuk=1&afdeling=3&paragraaf=1&artikel=1.47b&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1073> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10148> ;
+        dct:description               "Het Landelijk Register Kinderopvang (LRK) is een wettelijk register op basis van de Wet Kinderopvang, waarin de door de overheid erkende organisaties  zijn vastgelegd die zich beroepsmatig bezig houden met kinderopvang. Geregistreerd worden kinderopvangvoorzieningen, inclusief gastouders. Dit gedeelte heeft een openbaar karakter.\r\n\r\nDaarnaast bepaalde de Wet Kinderopvang dat ook de personen die op basis van een wet een Verklaring Omtrent Gedrag moeten overleggen geregistreerd worden in het Personenregister Kinderopvang (PRK). Naast de houder van de voorziening waar kinderopvang plaats vindt, gaat het om de beroepskrachten en andere personen die structureel op hetzelfde adres aanwezig zijn.\r\n\r\nOok stelt de Wet Kinderopvang het Register Buitenlandse Kinderopvang (RBK) in. Hierin staan door de minister gelijkgestelde voorzieningen in een andere lidstaat, Zwitserland of het Verenigd Koninkrijk."@nl ;
+        dct:identifier                "e180f3d1-dfd9-52b9-879c-c414f1294535" ;
+        dct:license                   <http://creativecommons.org/licenses/by-sa/4.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10148> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10148> ;
+        dct:title                     "Landelijk Register Kinderopvang"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:opendata@duo.nl> ;
+                                        vcard:fn     "Ketenoverleg DUO open data."@nl ;
+                                        vcard:web    <https://duo-opendata.pleio.nl>
+                                      ] ;
+        dcat:landingPage              <https://www.landelijkregisterkinderopvang.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_76136c82> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

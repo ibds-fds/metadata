@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:b1ecfe8f-9e0c-5877-9fcc-55ec0ed26102
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Gedekte obligaties"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:109 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:109&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:109&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "Sommige banken geven obligaties uit om daarmee geld aan te trekken. Gedekte obligaties zijn een speciale categorie, waarbij de bank de houder van de obligatie extra zekerheid geeft op aflossing. Volgens de wet moet er een openbaar register zijn van deze gedekte obligaties.\r\nHet register van gedekte obligaties heeft betrekking op gedekte obligaties die zijn uitgegeven onder de oude wet- en regelgeving zoals deze van kracht was vóór de Nederlandse implementatie van Richtlijn (EU) 2019/2162 in de Wet financieel toezicht en het Besluit prudentiële regels. Onder de oude wet- en regelgeving, die van kracht was tot 8 juli 2022, moesten banken hun programma’s van gedekte obligaties bij DNB registreren."@nl ;
+        dct:identifier                "b1ecfe8f-9e0c-5877-9fcc-55ec0ed26102" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Register Gedekte obligaties"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/register-van-gedekte-obligaties/?p=1&l=10&rc=V0ZUR08&an=QXJ0LiAzOjMzYSBXZnQgVG9lc3RlbW1pbmcgYWFuIGJhbmsgdm9vciBoZXQgdWl0Z2V2ZW4gdmFuIGdlZGVrdGUgb2JsaWdhdGllcw> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

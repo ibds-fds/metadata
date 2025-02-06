@@ -1,0 +1,40 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:a94f3e8b-4aec-54c6-acac-9192bdb3755b
+        a                             dcat:Dataset ;
+        rdfs:label                    "Overzicht houders invoervergunning voor diergeneesmiddelen afkomstig van buiten de EER"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 7.2, eerste lid, Wet dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030250&hoofdstuk=7&artikel=7.2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030250&hoofdstuk=7&artikel=7.2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 91 gelezen in samenhang met artikel 88, vierde lid, van Verordening (EU) nr. 2019/6 betreffende diergeneesmiddelen"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2019/6> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2019/6/2022-01-28>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10110> ;
+        dct:description               "Overzicht houders invoervergunning voor diergeneesmiddelen afkomstig van buiten de EER.\r\nVoor vervaardigen (F) en de groothandel (G), zie de EU-databank van de EMA."@nl ;
+        dct:identifier                "a94f3e8b-4aec-54c6-acac-9192bdb3755b" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10110> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10110> ;
+        dct:title                     "Overzicht houders invoervergunning voor diergeneesmiddelen afkomstig van buiten de EER"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:infoBD@cbg-meb.nl> ;
+                                        vcard:fn     "Bureau Diergeneesmiddelen"@nl ;
+                                        vcard:tel    <tel:+31882248000> ;
+                                        vcard:web    <https://fd8.formdesk.com/collegeterbeoordelingvangenees/contact_BD/>
+                                      ] ;
+        dcat:landingPage              <https://www.cbg-meb.nl/documenten/publicaties/2023/01/01/bd-vergunninghouders-invoeren-diergeneesmiddel-afkomstig-buiten-eer> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_6b9627b5> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

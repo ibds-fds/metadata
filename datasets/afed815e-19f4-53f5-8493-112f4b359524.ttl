@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:afed815e-19f4-53f5-8493-112f4b359524
+        a                             dcat:Dataset ;
+        rdfs:label                    "Kiwa register"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Bijlage A1a Besluit mandaat en machtiging Kiwa N.V. (I)"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0027827&artikel=10&z=2014-08-26&g=2014-08-26> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0027827&artikel=10&z=2014-08-26&g=2014-08-26>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Besluit mandaat en machtiging Kiwa N.V. (I)"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0027827&artikel=2&z=2014-08-26&g=2014-08-26> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0027827&artikel=2&z=2014-08-26&g=2014-08-26>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   "Kiwa N.V."@nl ;
+        dct:description               "Kiwa Register legt zich toe op het efficiënt verwerken van aanvragen voor formele vergunningen en wettelijke bevoegdheden in de transportsector. Jaarlijks verstrekt Kiwa namens de Minister van Infrastructuur en Waterstaat ruim 100.000 vergunningen en bevoegdheden aan natuurlijke personen en bedrijven in de luchtvaart, zeevaart, binnenvaart en het personen- en vrachtvervoer over de weg. Kiwa Register is onderdeel van Kiwa N.V., een internationale onderneming op het gebied van testen, inspecties en certificering (TIC)."@nl ;
+        dct:identifier                "afed815e-19f4-53f5-8493-112f4b359524" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "Kiwa N.V."@nl ;
+        dct:rightsHolder              "Kiwa N.V."@nl ;
+        dct:title                     "Kiwa register"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Kiwa Register"@nl ;
+                                        vcard:tel  <tel:+31889984888> ;
+                                        vcard:web  <https://www.kiwaregister.com/nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.kiwaregister.com/nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/TRAN> , <https://identifier.overheid.nl/tooi/def/thes/top/c_195b5b5e> .

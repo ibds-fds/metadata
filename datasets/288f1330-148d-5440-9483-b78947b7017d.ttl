@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:288f1330-148d-5440-9483-b78947b7017d
+        a                             dcat:Dataset ;
+        rdfs:label                    "Architectenregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Wet op de architectentitel"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0004189&hoofdstuk=II&artikel=2&z=2021-08-26&g=2021-08-26> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0004189&hoofdstuk=II&artikel=2&z=2021-08-26&g=2021-08-26>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1109> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000214> ;
+        dct:description               "Het architectenregister geeft actueel weer wie is ingeschreven en de beschermde titel architect, stedenbouwkundige, tuin- en landschapsarchitect of interieurarchitect mag voeren."@nl ;
+        dct:identifier                "288f1330-148d-5440-9483-b78947b7017d" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000214> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000214> ;
+        dct:title                     "Architectenregister"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@architectenregister.nl> ;
+                                        vcard:fn     "Bureau Architectenregister"@nl ;
+                                        vcard:tel    <tel:+31703467020> ;
+                                        vcard:web    <https://www.architectenregister.nl/>
+                                      ] ;
+        dcat:landingPage              <https://www.architectenregister.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_a6a9eddd> .

@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:4666f378-3aa1-5c36-96de-b68046aa8923
+        a                             dcat:Dataset ;
+        rdfs:label                    "Monitor Hemovigilantie"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Regeling voorschriften bloedvoorziening"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017977&z=2019-12-31&g=2019-12-31> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017977&z=2019-12-31&g=2019-12-31>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk V van Richtlijn 2002/98/EG tot vaststelling van kwaliteits- en veiligheidsnormen voor het inzamelen, testen, bewerken, opslaan en distribueren van bloed en bloedbestanddelen van menselĳke oorsprong"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/dir/2002/98> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/dir/2002/98/2009-08-07>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   "Stichting TRIP"@nl ;
+        dct:description               "Hemovigilantie is het systematisch monitoren van bijwerkingen en nadelige incidenten in de gehele transfusieketen van donor tot patiënt, en daarnaast alles wat bij kan dragen aan een veiliger en effectiever gebruik van bloedproducten."@nl ;
+        dct:identifier                "4666f378-3aa1-5c36-96de-b68046aa8923" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "Stichting TRIP"@nl ;
+        dct:rightsHolder              "Stichting TRIP"@nl ;
+        dct:title                     "Monitor Hemovigilantie"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@tripnet.nl> ;
+                                        vcard:fn     "TRIP Nationaal Bureau voor hemo- en biovigilantie"@nl ;
+                                        vcard:tel    <tel:+31713031540>
+                                      ] ;
+        dcat:landingPage              <https://www.tripnet.nl/hemovigilantie-2/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_8b081a63> , <http://publications.europa.eu/resource/authority/data-theme/SOCI> .

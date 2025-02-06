@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:c820f5e8-ae85-5827-98ee-3972c383f641
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register home member state"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 5:25a Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=5&hoofdstuk=5.1a&afdeling=5.1a.1&paragraaf=5.1a.1.1&artikel=5:25a&z=2024-09-06&g=2024-09-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=5&hoofdstuk=5.1a&afdeling=5.1a.1&paragraaf=5.1a.1.1&artikel=5:25a&z=2024-09-06&g=2024-09-06>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-09-06&g=2024-09-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-09-06&g=2024-09-06>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:description               "De EU-lidstaat van herkomst is een belangrijk aanknopingspunt om te bepalen onder welke toezichthouder een uitgevende instelling valt en in welk land bepaalde gereglementeerde informatie over de uitgevende instelling in de openbare registers te vinden is. Met het oog daarop zijn deze gegevens in het register opgenomen."@nl ;
+        dct:identifier                "c820f5e8-ae85-5827-98ee-3972c383f641" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:title                     "Register home member state"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Autoriteit Financiële Markten"@nl ;
+                                        vcard:web  <https://www.afm.nl/nl-nl/contact/contactformulier-sector>
+                                      ] ;
+        dcat:landingPage              <https://www.afm.nl/nl-nl/sector/registers/meldingenregisters/home-member-state> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

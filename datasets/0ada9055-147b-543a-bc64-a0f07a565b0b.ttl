@@ -1,0 +1,33 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0ada9055-147b-543a-bc64-a0f07a565b0b
+        a                             dcat:Dataset ;
+        rdfs:label                    "Nationaliteitenregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 22 Rijkswet op het Nederlanderschap"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0003738&hoofdstuk=7&artikel=22&z=2023-10-01&g=2023-10-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0003738&hoofdstuk=7&artikel=22&z=2023-10-01&g=2023-10-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10222> ;
+        dct:description               "Het Nationaliteitenregister is gebaseerd op artikel 22 van de Rijkswet op het Nederlanderschap. Voorheen artikel 11 van de Wet op het Nederlanderschap en het ingezetenschap. In het Nationaliteitenregister zitten documenten over de periode 1850 tot heden.\r\n\r\nHet betreft een register van:\r\n\r\na.de verklaringen tot verkrijging en afstand van het Nederlanderschap;\r\nb.de bevestigingen, bedoeld in het derde lid van artikel 6 en in artikel 28;\r\nc.de verlening van het Nederlanderschap;\r\nd.de intrekkingen, bedoeld in het eerste lid van artikel 14, en artikel 15, eerste lid, onder d.\r\n\r\nDe in deze bepaling bedoelde registers zijn in beheer bij de IND. Deze registers bevatten gegevens met betrekking tot:\r\n- optieverklaringen tot verkrijging van het Nederlanderschap;\r\n- bevestigingen van verkrijging van het Nederlanderschap door optie;\r\n- naturalisaties tot Nederlander;\r\n- verklaringen van afstand van het Nederlanderschap;\r\n- besluiten tot intrekking van het door optie verkregen of bij naturalisatiebesluit verleende Nederlanderschap.\r\nVerder zijn aldaar registers aanwezig met betrekking tot:\r\n- de Wet op het Nederlanderschap en het ingezetenschap van 1892 (opties, naturalisaties, vervallenverklaringen, verklaringen van afstand en kennisgevingen tot behoud);\r\n- de Toescheidingsovereenkomst met Indonesië (opties voor de Nederlandse respectievelijk de Indonesische nationaliteit);\r\n- de Toescheidingsovereenkomst met Suriname (opties voor de Nederlandse respectievelijk de Surinaamse nationaliteit);\r\n- het aanvullend Protocol op het op 6 mei 1963 te Straatsburg gesloten Verdrag betreffende beperking van gevallen van meervoudige nationaliteit en betreffende militaire verplichtingen in geval van meervoudige nationaliteit (formulieren inzake uitwisseling van gegevens met betrekking tot verkrijging (door optie, naturalisatie of herstel) van de nationaliteit van een andere verdragsluitende staat door een Nederlander)\r\n- de op 10 september 1964 te Parijs gesloten Overeenkomst inzake het uitwisselen van gegevens met betrekking tot verkrijging van nationaliteit (formulieren inzake uitwisseling van gegevens met betrekking tot verkrijging (door optie, naturalisatie of herstel) van de nationaliteit van een andere overeenkomstsluitende staat door een Nederlander)."@nl ;
+        dct:identifier                "0ada9055-147b-543a-bc64-a0f07a565b0b" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10222> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10222> ;
+        dct:title                     "Nationaliteitenregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Immigratie- en Naturalisatiedienst"@nl ;
+                                        vcard:tel  <tel:+31880430430> ;
+                                        vcard:web  <https://ind.nl/nl/service-contact/contact-met-ind/verzoek-om-stukken-of-gegevens-uit-uw-ind-dossier>
+                                      ] ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_a94e1fa4> .

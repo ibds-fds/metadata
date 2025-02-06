@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:95bce716-9879-5487-8e69-ac1dd72b29c6
+        a                             dcat:Dataset ;
+        rdfs:label                    "AMICE (Afval Meldingen Informatie en Communicatie Electronisch)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit melden bedrijfsafvalstoffen en gevaarlijke afvalstoffen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017294&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017294&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 10.38, derde lid, van de Wet milieubeheer"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0003245&hoofdstuk=10&titeldeel=10.6&paragraaf=10.6.1&artikel=10.38&lid=3> ;
+                                        foaf:isPrimaryTopicOf  <http://wetten.overheid.nl/jci1.3:c:BWBR0003245&hoofdstuk=10&titeldeel=10.6&paragraaf=10.6.1&artikel=10.38&lid=3>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 10.40, eerste lid, van de Wet milieubeheer"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0003245&hoofdstuk=10&titeldeel=10.6&paragraaf=10.6.1&artikel=10.40&lid=1> ;
+                                        foaf:isPrimaryTopicOf  <http://wetten.overheid.nl/jci1.3:c:BWBR0003245&hoofdstuk=10&titeldeel=10.6&paragraaf=10.6.1&artikel=10.40&lid=1>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:description               "AMICE is een database waarin meldingen van ontvangst en afgifte van bedrijfsafval en gevaarlijk afval worden vastgelegd. Het Landelijk Meldpunt Afvalstoffen (LMA) verzamelt en beheert deze meldgegevens, die vervolgens ter beschikking worden gesteld aan overheidsinstanties voor toezicht, handhaving en beleidsdoeleinden."@nl ;
+        dct:identifier                "95bce716-9879-5487-8e69-ac1dd72b29c6" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10004> ;
+        dct:title                     "AMICE (Afval Meldingen Informatie en Communicatie Electronisch)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:helpdesk@lma.nl> ;
+                                        vcard:fn     "Landelijk Meldpunt Afvalstoffen"@nl ;
+                                        vcard:tel    <tel:+31887977102> ;
+                                        vcard:web    <https://www.lma.nl/organisatie-0/organisatie/contact/>
+                                      ] ;
+        dcat:landingPage              <https://amice.lma.nl/Amice.WebApp/Home> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ENVI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d96f9cd3> .

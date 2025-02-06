@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:aaa1fc64-469c-5dd2-83e8-5830b3001d69
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register substantiële deelnemingen en bruto shortposities"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1:107, derde lid, onderdeel c, onder 1°, van de Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=1&hoofdstuk=1.6&afdeling=1.6.2&artikel=1:107&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Afdeling 5.3.3 Wet op het financieel toezicht"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0020368&titeldeel=5&hoofdstuk=5.3&afdeling=5.3.3&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0020368&titeldeel=5&hoofdstuk=5.3&afdeling=5.3.3&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:description               "Dit register bevat de substantiële deelnemingen van aandeelhouders en bruto shortposities in uitgevende ondernemingen en meldingen van bijzondere statutaire zeggenschapsrechten. Onder uitgevende onderneming wordt verstaan: een naamloze vennootschap die is opgericht naar Nederlands recht waarvan (de certificaten van) aandelen zijn toegelaten tot de handel op een gereglementeerde markt in Nederland of in een andere lidstaat van de Europese Unie dan wel EER-staat. Of van rechtspersonen opgericht naar het recht van een staat die geen EU-lidstaat is waarvan (de certificaten van) aandelen zijn toegelaten tot de handel op een gereglementeerde markt in Nederland.\r\nZodra een deelneming of shortpositie 3% of meer van het geplaatste kapitaal bedraagt, moet de houder dit melden. Vervolgens moet men opnieuw melden zodra de substantiële deelneming of shortpositie een drempelwaarde bereikt, overschrijdt of onderschrijdt. Dit kan het geval zijn als hij de beschikking krijgt, of verliest, over aandelen of door een toe- of afname van het geplaatste kapitaal van de uitgevende onderneming (de noemer)."@nl ;
+        dct:identifier                "aaa1fc64-469c-5dd2-83e8-5830b3001d69" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000218> ;
+        dct:title                     "Register substantiële deelnemingen en bruto shortposities"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Autoriteit Financiële Markten"@nl ;
+                                        vcard:web  <https://www.afm.nl/nl-nl/contact/contactformulier-sector>
+                                      ] ;
+        dcat:landingPage              <https://www.afm.nl/nl-nl/sector/registers/meldingenregisters/substantiele-deelnemingen> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> , <http://publications.europa.eu/resource/authority/data-theme/ECON> .

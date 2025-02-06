@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:b79ef1cb-5cec-5f98-97c1-651ad45f7757
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Trustkantoren"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 9 Wet toezicht trustkantoren 2018"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0041583&hoofdstuk=2&artikel=9&z=2023-07-01&g=2023-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0041583&hoofdstuk=2&artikel=9&z=2023-07-01&g=2023-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "Een trustkantoor verleent trustdiensten. Voorbeelden zijn het optreden als beheerder van een trust (trustee), het verkopen van bedrijven en het beschikbaar stellen van een correspondentieadres aan een onderneming. \r\nTrustkantoren die in Nederland actief willen zijn, moeten een vergunning van DNB hebben of door DNB zijn vrijgesteld. In het register staan alle trustkantoren die in Nederland actief zijn."@nl ;
+        dct:identifier                "b79ef1cb-5cec-5f98-97c1-651ad45f7757" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Register Trustkantoren"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/register-van-trustkantoren/?p=1&l=10&rc=V1RUVEs> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

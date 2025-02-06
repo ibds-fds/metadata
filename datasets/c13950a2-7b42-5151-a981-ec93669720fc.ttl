@@ -1,0 +1,38 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:c13950a2-7b42-5151-a981-ec93669720fc
+        a                             dcat:Dataset ;
+        rdfs:label                    "Doelgroepregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 38d, Wet financiering sociale verzekeringen"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0017745&hoofdstuk=3&afdeling=4&paragraaf=4a&artikel=38d&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0017745&hoofdstuk=3&afdeling=4&paragraaf=4a&artikel=38d&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3.2 Besluit Suwi"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0013267&hoofdstuk=3a&artikel=3.2&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0013267&hoofdstuk=3a&artikel=3.2&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1073> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000117> ;
+        dct:description               "in het doelgroepregister zijn personen opgenomen die onder de doelgroep van een zogenoemde banenafspraak vallen. Het gaat hierbij om mensen met een afstand tot de arbeidsmarkt; zij worden ondersteund bij het vinden van passend werk. UWV houdt de gegevens in het doelgroepregister bij."@nl ;
+        dct:identifier                "c13950a2-7b42-5151-a981-ec93669720fc" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000117> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000117> ;
+        dct:title                     "Doelgroepregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "UWV"@nl ;
+                                        vcard:tel  <tel:+31206872400>
+                                      ] ;
+        dcat:landingPage              <https://www.uwv.nl/nl/doelgroepregister> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/SOCI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_9d1917e9> .

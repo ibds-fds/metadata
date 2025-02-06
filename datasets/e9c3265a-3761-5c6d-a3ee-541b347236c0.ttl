@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:e9c3265a-3761-5c6d-a3ee-541b347236c0
+        a                             dcat:Dataset ;
+        rdfs:label                    "Huwelijksgoederenregister"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit Huwelijksgoederenregister 1969"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002684&z=2013-09-01&g=2013-09-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002684&z=2013-09-01&g=2013-09-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 116 Boek 1 Burgerlijk Wetboek"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0002656&boek=1&titeldeel=8&afdeling=1&artikel=116&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0002656&boek=1&titeldeel=8&afdeling=1&artikel=116&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/def/thes/bhg/rechtbanken> ;
+        dct:description               "In het huwelijksgoederenregister wordt de locatie/rechtbank waar de huwelijkse voorwaarden of partnerschapsvoorwaarden te vinden zijn geregistreerd. Inschrijving gebeurt door de notaris die de voorwaarden heeft opgemaakt. Opvragen van een afschrift kan door partners zelf, en onder bepaalde voorwaarden door notarissen, deurwaarders en de Belastingdienst."@nl ;
+        dct:identifier                "e9c3265a-3761-5c6d-a3ee-541b347236c0" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/def/thes/bhg/rechtbanken> ;
+        dct:title                     "Huwelijksgoederenregister"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Rechtspraak Servicecentrum"@nl ;
+                                        vcard:tel  <tel:+31883616161> ;
+                                        vcard:web  <https://hgr.rechtspraak.nl/#!/>
+                                      ] ;
+        dcat:landingPage              <https://hgr.rechtspraak.nl/#!/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d2b1338a> .

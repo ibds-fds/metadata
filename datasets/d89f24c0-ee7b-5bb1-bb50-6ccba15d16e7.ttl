@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:d89f24c0-ee7b-5bb1-bb50-6ccba15d16e7
+        a                             dcat:Dataset ;
+        rdfs:label                    "Register Aanbieders van cryptodiensten"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 23e Wet ter voorkoming van witwassen en financieren van terrorisme"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024282&hoofdstuk=3A&artikel=23e&z=2024-09-06&g=2024-09-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024282&hoofdstuk=3A&artikel=23e&z=2024-09-06&g=2024-09-06>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 23f Wet ter voorkoming van witwassen en financieren van terrorisme"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024282&hoofdstuk=3A&artikel=23f&z=2024-09-06&g=2024-09-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024282&hoofdstuk=3A&artikel=23f&z=2024-09-06&g=2024-09-06>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 23b Wet ter voorkoming van witwassen en financieren van terrorisme"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024282&hoofdstuk=3A&artikel=23b&z=2024-09-06&g=2024-09-06> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024282&hoofdstuk=3A&artikel=23b&z=2024-09-06&g=2024-09-06>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1090> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:description               "Aanbieders van cryptodiensten die in of vanuit Nederland actief willen worden, moeten een inschrijving in het openbaar register van DNB aanvragen. Daarvoor moeten ze kunnen aantonen dat ze voldoen aan de Wet ter voorkoming van witwassen en financieren van terrorisme en de Sanctiewet 1977.\r\n\r\nDNB houdt bij geregistreerde aanbieders van cryptodiensten uitsluitend toezicht op deze twee wetten. De geregistreerde ondernemingen staan niet onder prudentieel toezicht van DNB of onder gedragstoezicht van de AFM. Dit betekent dat er geen toezicht wordt gehouden op financiële bedrijfsrisico’s en er geen sprake is van specifieke financiële consumentenbescherming."@nl ;
+        dct:identifier                "d89f24c0-ee7b-5bb1-bb50-6ccba15d16e7" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/zbo/zb000194> ;
+        dct:title                     "Register Aanbieders van cryptodiensten"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@dnb.nl> ;
+                                        vcard:fn     "De Nederlandsche Bank"@nl ;
+                                        vcard:tel    <tel:08000201068> ;
+                                        vcard:web    <https://www.dnb.nl/contact/wegwijs-binnen-dnb/>
+                                      ] ;
+        dcat:landingPage              <https://www.dnb.nl/openbaar-register/registers-van-aanbieders-van-cryptodiensten/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ECON> , <https://identifier.overheid.nl/tooi/def/thes/top/c_dc437d00> .

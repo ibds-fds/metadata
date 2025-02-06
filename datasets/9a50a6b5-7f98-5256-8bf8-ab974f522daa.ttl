@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:9a50a6b5-7f98-5256-8bf8-ab974f522daa
+        a                             dcat:Dataset ;
+        rdfs:label                    "Neonatale Hielprik Screening"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3 Wet op het RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008289&hoofdstuk=2&artikel=3&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008289&hoofdstuk=2&artikel=3&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk I Regeling bevolkingsonderzoek ex artikel 12a, derde lid, Wet publieke gezondheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0044919&hoofdstuk=I&z=2021-04-01&g=2021-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0044919&hoofdstuk=I&z=2021-04-01&g=2021-04-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1, Besluit RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032719&artikel=1&z=2022-11-30&g=2022-11-30> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032719&artikel=1&z=2022-11-30&g=2022-11-30>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:description               "Resultaten van de Neonatale Hielprik Screening (de hielprik) van pasgeboren kinderen wordt bijgehouden in Praeventis; het informatiesysteem dat het primaire proces van de neonatale hielprikscreening ondersteunt. In Praeventis worden gegevens over het kind, de te nemen stappen in het hielprikscreeningsprogramma en de resultaten van de hielprik vastgelegd. Praeventis wordt beheerd door RIVM-DVP.\r\nOp dit moment leveren vijf laboratoria uitslagen van bloedonderzoek via gespecificeerde elektronische berichten."@nl ;
+        dct:identifier                "9a50a6b5-7f98-5256-8bf8-ab974f522daa" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:title                     "Neonatale Hielprik Screening"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:DVP.NHS@RIVM.nl> ;
+                                        vcard:fn     "Dienst Vaccinvoorziening en Preventieprogramma's"@nl ;
+                                        vcard:tel    <tel:+31886898989> ;
+                                        vcard:web    <https://www.pns.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.pns.nl/hielprik/juridische-informatie-en-privacy/toestemming-onderzoek> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

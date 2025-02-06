@@ -1,0 +1,100 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:312ddd7a-2f29-59e1-9958-7d37b7a7a354
+        a                             dcat:Dataset ;
+        rdfs:label                    "Koppelinformatiesysteem Pluimvee (KIP)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Regeling handhaving en overige zaken Wet dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032523&z=2024-09-03&g=2024-09-03> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032523&z=2024-09-03&g=2024-09-03>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) nr. 2016/429"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2016/429> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2016/429/2021-04-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Paragraaf 7b.2. Regeling houders van dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0035248&hoofdstuk=7b&paragraaf=7b.2&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0035248&hoofdstuk=7b&paragraaf=7b.2&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) 2022/1345"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_impl/2022/1345/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_impl/2022/1345/oj>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 109 Verordening (EU) 2016/429"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2016/429> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2016/429/2021-04-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Wet dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0030250&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0030250&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Besluit houders van dieren"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0035217&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0035217&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) nr. 2019/2035"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_del/2019/2035> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_del/2019/2035/2023-04-06>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 2160/2003"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2003/2160> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2003/2160/2021-04-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Veordening (EG) nr. 617/2008"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2008/617> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2008/617/2013-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) nr. 2020/688"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg_del/2020/688> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg_del/2020/688/2023-12-04>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Richtlijn 2002/4/EG"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/dir/2002/4> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/dir/2002/4/2007-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Richtlijn 2007/43/EG"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/dir/2007/43> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/dir/2007/43/2019-12-14>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EU) Nr. 1308/2013"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2013/1308> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2013/1308/2024-05-13>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   "Stichting AVINED"@nl ;
+        dct:description               "Het Koppel Informatiesysteem Pluimvee (KIP) vormt in Nederland de officiële bedrijfsdatabank voor de pluimveesector. De geregistreerde gegevens worden gebruikt voor:\r\n- Veterinaire en kwaliteitsdoeleinden, bijvoorbeeld monitoringprogramma’s in het kader van diergezondheid\r\n- Bepalen van beperkingsgebieden bij dierziekteuitbraken\r\n- Antibioticaregistratie\r\n- Registratie van monsteruitslagen\r\n- Controle op hygiëneverordeningen en IKB programma’s\r\n- Tracking en tracing van consumptie-eieren\r\n- Controle op de handelsnormen\r\n- Heffingsgrondslag voor DGF en AVV"@nl ;
+        dct:identifier                "312ddd7a-2f29-59e1-9958-7d37b7a7a354" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 "Stichting AVINED"@nl ;
+        dct:rightsHolder              "Stichting AVINED"@nl ;
+        dct:title                     "Koppelinformatiesysteem Pluimvee (KIP)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@avined.nl> ;
+                                        vcard:fn     "Stichting AVINED"@nl ;
+                                        vcard:tel    <tel:+31889984340> ;
+                                        vcard:web    <https://www.avined.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.avined.nl/themas/pluimveegezondheid> , <https://www.avined.nl/themas/bedrijfsmanagement/i-r> , <https://www.avined.nl/themas/voedselveiligheid/salmonella> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

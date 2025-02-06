@@ -1,0 +1,45 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:127bc359-d9f2-533e-944d-a2f66c282b07
+        a                             dcat:Dataset ;
+        rdfs:label                    "Prenatale Screening Infectieziekten en Erytrocytenimmunisatie"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Hoofdstuk II Regeling bevolkingsonderzoek ex artikel 12a, derde lid, Wet publieke gezondheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0044919&hoofdstuk=II&z=2021-04-01&g=2021-04-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0044919&hoofdstuk=II&z=2021-04-01&g=2021-04-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 1, tweede lid, onderdeel b, Besluit RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032719&artikel=1&z=2022-11-30&g=2022-11-30> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032719&artikel=1&z=2022-11-30&g=2022-11-30>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 12a Wet publieke gezondheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024705&hoofdstuk=II&paragraaf=5&artikel=12a&z=2024-04-13&g=2024-04-13> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024705&hoofdstuk=II&paragraaf=5&artikel=12a&z=2024-04-13&g=2024-04-13>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:description               "Zwangere vrouwen krijgen in het eerste verloskundig consult (vóór week 13 van de zwangerschap) een bloedonderzoek aangeboden. Dit onderzoek heet bevolkingsonderzoek PSIE (Prenatale Screening Infectieziekten en Erytrocytenimmunisatie) ofwel ‘bloedonderzoek zwangeren’. Het doel van dit onderzoek is om hepatitis B- en hiv-dragerschap, congenitale syfilis en hemolytische ziekte van de foetus en/of de pasgeborene te voorkomen.\r\nPraeventis is het registratiesysteem van RIVM - DVP dat onder andere gebruikt wordt voor het bewaken van het screeningsproces en de kwaliteit van het bevolkingsonderzoek PSIE. RIVM-DVP registreert gegevens en uitslagen in overeenstemming met de geldende wet- en regelgeving."@nl ;
+        dct:identifier                "127bc359-d9f2-533e-944d-a2f66c282b07" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:title                     "Prenatale Screening Infectieziekten en Erytrocytenimmunisatie"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:pns@rivm.nl> ;
+                                        vcard:fn     "Centrum voor Bevolkingsonderzoek"@nl ;
+                                        vcard:tel    <tel:+31886898989> ;
+                                        vcard:web    <https://www.pns.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.pns.nl/professionals/bloedonderzoek-zwangeren> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> .

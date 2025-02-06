@@ -1,0 +1,49 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:7ae2562b-9e68-5483-a9c5-df8bdcad6bc6
+        a                             dcat:Dataset ;
+        rdfs:label                    "Centraal Insolventieregister (CIR)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 294a Faillissementswet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0001860&titeldeel=III&afdeling=Eerste&artikel=294a&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0001860&titeldeel=III&afdeling=Eerste&artikel=294a&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 19 Faillissementswet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0001860&titeldeel=I&afdeling=Eerste&artikel=19&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0001860&titeldeel=I&afdeling=Eerste&artikel=19&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 67, derde lid, van de Faillissementswet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0001860&titeldeel=I&afdeling=Derde&paragraaf=1&artikel=67&lid=3> ;
+                                        foaf:isPrimaryTopicOf  <http://wetten.overheid.nl/jci1.3:c:BWBR0001860&titeldeel=I&afdeling=Derde&paragraaf=1&artikel=67&lid=3>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 222b Faillissementswet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0001860&titeldeel=II&afdeling=Eerste&artikel=222b&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0001860&titeldeel=II&afdeling=Eerste&artikel=222b&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1058> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:description               "Het Centraal Insolventieregister (CIR) is een openbaar en online te raadplegen register met gegevens van faillissementen, surseances van betaling en schuldsaneringen natuurlijke personen die in de lokale registers van de rechtbanken worden bijgehouden. Alleen insolventiegegevens gepubliceerd na 1 januari 2005 zijn in dit register te vinden. Mutaties van faillissementen, surseances van betaling en schuldsaneringen worden door rechtbanken aangeleverd aan het CIR. Deze informatie wordt gepubliceerd op http://insolventies.rechtspraak.nl/. De Rechtspraak levert vervolgens dagelijks deze mutaties door aan de Staatscourant, de wettelijke afnemer van dit register. Naast de wettelijke afnemers, kunnen partijen ook afnemer worden van gegevens uit dit register door middel van een abonnement, de zogenaamde webservice. Iedereen kan een verzoek indienen voor deze webservice, die na een toetsing kan worden gebruikt."@nl ;
+        dct:identifier                "7ae2562b-9e68-5483-a9c5-df8bdcad6bc6" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10038> ;
+        dct:title                     "Centraal Insolventieregister (CIR)"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Raad voor de rechtspraak"@nl ;
+                                        vcard:tel  <tel:+31883616161> ;
+                                        vcard:web  <https://insolventies.rechtspraak.nl/#!/>
+                                      ] ;
+        dcat:landingPage              <https://insolventies.rechtspraak.nl/#!/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/JUST> , <https://identifier.overheid.nl/tooi/def/thes/top/c_f4679acc> .

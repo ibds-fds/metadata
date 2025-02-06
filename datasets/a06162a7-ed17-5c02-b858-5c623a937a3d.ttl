@@ -1,0 +1,39 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:a06162a7-ed17-5c02-b858-5c623a937a3d
+        a                             dcat:Dataset ;
+        rdfs:label                    "Vervoer van dieren - overzicht bedrijven"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 1/2005 inzake de bescherming van dieren tijdens het vervoer en daarmee samenhangende activiteiten en tot wijziging van de Richtlijnen 64/432/EEG en 93/119/EG en van Verordening (EG) nr. 1255/97"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2005/1/oj> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2005/1/oj>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Verordening (EG) nr. 1255/97 betreffende de communautaire criteria voor halteplaatsen en tot aanpassing van het in Richtlijn 91/628/EEG bedoelde reisschema"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/1997/1255> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/1997/1255/2007-01-05>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1150> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:description               "Lijst van erkende bedrijven en vergunninghouders met activiteiten gerelateerd aan het transport van dieren."@nl ;
+        dct:identifier                "a06162a7-ed17-5c02-b858-5c623a937a3d" ;
+        dct:license                   <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10102> ;
+        dct:title                     "Vervoer van dieren - overzicht bedrijven"@nl ;
+        dcat:contactPoint             [ a          vcard:Kind ;
+                                        vcard:fn   "Nederlandse Voedsel- en Warenautoriteit"@nl ;
+                                        vcard:tel  <tel:09000388> ;
+                                        vcard:web  <https://www.nvwa.nl/over-de-nvwa/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.nvwa.nl/onderwerpen/erkenningen-registraties-en-vergunningen/lijsten-bedrijven-met-een-erkenning-registratie-of-vergunning/vervoer-van-dieren-overzicht-bedrijven> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_989e37d9> .

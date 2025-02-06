@@ -1,0 +1,44 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:8ffee138-1730-5c9d-8f28-fecb6c63f001
+        a                             dcat:Dataset ;
+        rdfs:label                    "Bestrijdingsmiddelenatlas"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Gewasbeschermingsmiddelenverordening"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2009/1107> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2009/1107/2022-11-21>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Richtlijn 2009/128/EG tot vaststelling van een kader voor communautaire actie ter verwezenlijking van een duurzaam gebruik van pesticiden"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/dir/2009/128> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/dir/2009/128/2019-07-26>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Biocideverordening"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2012/528> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2012/528/2024-06-11>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   "Centrum voor Milieuwetenschappen Leiden"@nl ;
+        dct:description               "De Bestrijdingsmiddelenatlas geeft op grond van meetgegevens van regionale waterbeheerders een landelijk beeld van de bestrijdingsmiddelen in het oppervlaktewater. De atlas maakt onderscheid in resultaten van de monitoringslocaties van het Landelijk Meetnet gewasbeschermingsmiddelen (LM-GBM), drinkwaterinnamepunten in het oppervlaktewater en meetpunten uit andere monitoringsprogramma's."@nl ;
+        dct:identifier                "8ffee138-1730-5c9d-8f28-fecb6c63f001" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/licentieonbekend> ;
+        dct:publisher                 "Centrum voor Milieuwetenschappen Leiden"@nl ;
+        dct:rightsHolder              "Centrum voor Milieuwetenschappen Leiden"@nl ;
+        dct:title                     "Bestrijdingsmiddelenatlas"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:bma@cml.leidenuniv.nl> ;
+                                        vcard:fn     "Centrum voor Milieuwetenschappen Leiden"@nl ;
+                                        vcard:web    <https://www.bestrijdingsmiddelenatlas.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.bestrijdingsmiddelenatlas.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_389a72e6> , <http://publications.europa.eu/resource/authority/data-theme/ENVI> .

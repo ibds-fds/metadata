@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:0a5cadb6-75d5-5f1b-b316-cb510cbaab5a
+        a                             dcat:Dataset ;
+        rdfs:label                    "Farmatec - bemiddelaars"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 39 Geneesmiddelenwet"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0021505&hoofdstuk=3b&artikel=39&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0021505&hoofdstuk=3b&artikel=39&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:description               "Farmatec registreert API-bedrijven en bemiddelaars in Nederland. Bemiddelaars zijn degenen die \"iedere activiteit [verrichten] in verband met de verkoop of aankoop van geneesmiddelen, niet zijnde het drijven van een groothandel, waarbij geen sprake is van fysieke omgang met de desbetreffende geneesmiddelen, en die bestaat uit het onafhankelijk onderhandelen namens een andere natuurlijke persoon of rechtspersoon\". De Inspectie voor de Gezondheidszorg (IGZ) houdt toezicht op deze registratie."@nl ;
+        dct:identifier                "0a5cadb6-75d5-5f1b-b316-cb510cbaab5a" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10112> ;
+        dct:title                     "Farmatec - bemiddelaars"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@farmatec.nl> ;
+                                        vcard:fn     "Farmatec - CIBG"@nl ;
+                                        vcard:tel    <tel:+31703407530> ;
+                                        vcard:web    <https://www.farmatec.nl/contact>
+                                      ] ;
+        dcat:landingPage              <https://www.farmatec.nl/> ;
+        dcat:theme                    <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> , <http://publications.europa.eu/resource/authority/data-theme/HEAL> .

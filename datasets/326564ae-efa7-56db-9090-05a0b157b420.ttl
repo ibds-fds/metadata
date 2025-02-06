@@ -1,0 +1,35 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:326564ae-efa7-56db-9090-05a0b157b420
+        a                             dcat:Dataset ;
+        rdfs:label                    "Landelijk Grondwater Register (LGR)"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 9, eerste lid, van de Wet basisregistratie ondergrond"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0037095&hoofdstuk=2&artikel=9&z=2024-07-01&g=2024-07-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0037095&hoofdstuk=2&artikel=9&z=2024-07-01&g=2024-07-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1130> ;
+        dct:creator                   <http://standaarden.overheid.nl/owms/terms/Interprovinciaal_Overleg> ;
+        dct:description               "Het Landelijk Grondwater Register (LGR) wordt gebruikt voor de ondersteuning van de processen vergunningverlening, handhaving en heffingen door provincies, waterschappen, gemeenten en Rijkswaterstaat. Daarnaast is het LGR een bron voor het samenstellen van beleidsinformatie en publieke informatie.\r\n\r\nDe Warmte Koude Opslag (WKO)-tool informeert initiatiefnemers, met een selectie van de technische gegevens uit het LGR, over de plaatselijke situatie met betrekking tot bodemenergiesystemen.\r\n\r\nVanaf 1 juli 2022 alle nieuwe registraties/gegevens over grondwateronttrekkingen en bodemenergiesystemen automatisch doorgestuurd naar de Basisregistratie Ondergrond (BRO). Daarmee zijn via de BRO meer gedetailleerde gegevens van alle registraties beschikbaar (met uitzondering van de vertrouwelijke gegevens) en bevat de BRO publiek toegankelijke informatie over grondwateronttrekkingen en bodemenergiesystemen."@nl ;
+        dct:identifier                "326564ae-efa7-56db-9090-05a0b157b420" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <http://standaarden.overheid.nl/owms/terms/Interprovinciaal_Overleg> ;
+        dct:rightsHolder              <http://standaarden.overheid.nl/owms/terms/Interprovinciaal_Overleg> ;
+        dct:title                     "Landelijk Grondwater Register (LGR)"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:lgr@gbo-provincies.nl> ;
+                                        vcard:fn     "BIJ12"@nl ;
+                                        vcard:tel    <tel:+31854862222> ;
+                                        vcard:web    <https://www.bij12.nl/>
+                                      ] ;
+        dcat:landingPage              <https://www.lgronline.nl/> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/ENVI> , <https://identifier.overheid.nl/tooi/def/thes/top/c_389a72e6> .

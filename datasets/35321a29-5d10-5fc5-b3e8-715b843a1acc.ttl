@@ -1,0 +1,54 @@
+@prefix dataset: <http://data.overheid.nl/dataset/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcatap:  <http://data.europa.eu/r5r/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:35321a29-5d10-5fc5-b3e8-715b843a1acc
+        a                             dcat:Dataset ;
+        rdfs:label                    "COVID-vaccinatie Informatie- en Monitoringssysteem"@nl ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6, eerste lid, onder e, Algemene Verordening Gegevensbescherming"@nl ;
+                                        dct:identifier         <http://data.europa.eu/eli/reg/2016/679> ;
+                                        foaf:isPrimaryTopicOf  <https://eur-lex.europa.eu/eli/reg/2016/679/2016-05-04>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 11, onder 4, Besluit Publieke gezondheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024708&hoofdstuk=IV&artikel=11&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024708&hoofdstuk=IV&artikel=11&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 6b Wet publieke gezondheid"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0024705&hoofdstuk=II&paragraaf=4&artikel=6b&z=2024-04-13&g=2024-04-13> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0024705&hoofdstuk=II&paragraaf=4&artikel=6b&z=2024-04-13&g=2024-04-13>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 2 Besluit van Wet op het RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0032719&artikel=2&z=2022-11-30&g=2022-11-30> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0032719&artikel=2&z=2022-11-30&g=2022-11-30>
+                                      ] ;
+        dcatap:applicableLegislation  [ a                      <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                        rdfs:label             "Artikel 3 eerste lid, onderdeel b, Wet op het RIVM"@nl ;
+                                        dct:identifier         <jci1.3:c:BWBR0008289&hoofdstuk=2&artikel=3&z=2024-01-01&g=2024-01-01> ;
+                                        foaf:isPrimaryTopicOf  <https://wetten.overheid.nl/jci1.3:c:BWBR0008289&hoofdstuk=2&artikel=3&z=2024-01-01&g=2024-01-01>
+                                      ] ;
+        dct:accessRights              <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
+        dct:authority                 <https://identifier.overheid.nl/tooi/id/ministerie/mnre1025> ;
+        dct:creator                   <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:description               "Het RIVM registreert de gegevens van gevaccineerde mensen in een centraal register (CIMS). Als zij daar toestemming voor geven aan de zorgverlener zijn deze gegevens op persoonsniveau geregistreerd in CIMS. Het RIVM gebruikt de gegevens om vaccinatie-uitnodigingen te sturen, maar ook bijvoorbeeld om te bepalen hoeveel personen in Nederland zijn gevaccineerd, en te meten/onderzoeken hoe effectief de vaccinaties zijn. Ook kan het RIVM contact met gevaccineerden opnemen als dat nodig is, zoals bij bijwerkingen."@nl ;
+        dct:identifier                "35321a29-5d10-5fc5-b3e8-715b843a1acc" ;
+        dct:license                   <http://standaarden.overheid.nl/owms/terms/geslotenlicentie> ;
+        dct:publisher                 <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:rightsHolder              <https://identifier.overheid.nl/tooi/id/oorg/oorg10123> ;
+        dct:title                     "COVID-vaccinatie Informatie- en Monitoringssysteem"@nl ;
+        dcat:contactPoint             [ a            vcard:Kind ;
+                                        vcard:email  <mailto:info@rivm.nl> ;
+                                        vcard:fn     "Rijksinstituut voor volksgezondheid en milieu"@nl ;
+                                        vcard:tel    <tel:+31886898989>
+                                      ] ;
+        dcat:landingPage              <https://www.rijksoverheid.nl/onderwerpen/coronavirus-vaccinatie/aanpak-coronavaccinatie/registratie-van-persoonsgegevens-over-coronavaccinatie> ;
+        dcat:theme                    <http://publications.europa.eu/resource/authority/data-theme/HEAL> , <https://identifier.overheid.nl/tooi/def/thes/top/c_d0463fb7> .
