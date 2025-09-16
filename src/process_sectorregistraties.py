@@ -92,11 +92,6 @@ def create_catalog_index(output_dir, generated_files):
     
     catalog_content.append('    ) .')
     
-    # Add individual dataset definitions
-    for filename in generated_files:
-        catalog_content.append(f'\n<{filename}> a dcat:Dataset ;')
-        catalog_content.append(f'    dcterms:identifier "{filename}" .')
-    
     # Write catalog index
     catalog_path = os.path.join(output_dir, 'sectorregistraties.ttl')
     with open(catalog_path, 'w', encoding='utf-8') as f:
