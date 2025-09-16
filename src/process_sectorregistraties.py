@@ -88,7 +88,7 @@ def create_catalog_index(output_dir, generated_files):
     
     # Add datasets
     for filename in generated_files:
-        catalog_content.append(f'        <{filename}>')
+        catalog_content.append(f'        <https://github.com/ibds-fds/metadata/raw/refs/heads/main/datasets/{filename}.ttl>')
     
     catalog_content.append('    ) .')
     
@@ -98,7 +98,7 @@ def create_catalog_index(output_dir, generated_files):
         catalog_content.append(f'    dcterms:identifier "{filename}" .')
     
     # Write catalog index
-    catalog_path = os.path.join(output_dir, 'catalog.ttl')
+    catalog_path = os.path.join(output_dir, 'sectorregistraties.ttl')
     with open(catalog_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(catalog_content) + '\n')
     
@@ -107,7 +107,7 @@ def create_catalog_index(output_dir, generated_files):
 # Example usage
 if __name__ == "__main__":
     input_file = './src/sectorregistraties.ttl'
-    output_dir = './split_datasets'
+    output_dir = './datasets'
     
     # Example prefix lines (modify as needed)
     prefix_lines = [
